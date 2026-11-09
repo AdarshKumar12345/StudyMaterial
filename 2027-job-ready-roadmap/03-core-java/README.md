@@ -12,8 +12,8 @@ Java remains the backbone of global enterprise backend systems, financial engine
 | **Multithreading & Concurrency** | Thread lifecycle, Locks, ReentrantLock, ExecutorService, Volatile | Advanced | 22 hrs | [multithreading/](multithreading/README.md) |
 | **Virtual Threads (Project Loom)** | Carrier threads, Continuation yielding, High-throughput I/O | Advanced | 12 hrs | [virtual-threads/](virtual-threads/README.md) |
 | **Functional Programming** | Lambdas, Functional Interfaces (Predicate, Function, Consumer) | Intermediate | 10 hrs | [functional-programming/](functional-programming/README.md) |
-| **Stream API & Parallel Streams** | Map/filter/reduce, Collectors, Parallel performance pitfalls | Intermediate | 12 hrs | [streams/](streams/README.md) |
-| **Modern File Handling (NIO.2)** | Path, Files, Channels, ByteBuffers, Asynchronous file I/O | Intermediate | 8 hrs | [file-handling/](file-handling/README.md) |
+| **Stream API & Parallel Streams** | Map/filter/reduce, Collectors, Parallel performance pitfalls | Intermediate | 12 hrs | [streams/](streams/Streams.md) |
+| **Modern File Handling (NIO.2)** | Path, Files, Channels, ByteBuffers, Asynchronous file I/O | Intermediate | 8 hrs | [file-handling/](file-handling/Virtual_threads.md) |
 
 ## Prerequisites
 - Basic programming concepts (variables, conditionals, loops).
