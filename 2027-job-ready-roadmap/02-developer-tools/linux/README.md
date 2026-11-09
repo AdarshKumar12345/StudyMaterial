@@ -1,148 +1,415 @@
-# Linux Command Line Mastery, Shell Scripting & Systems
+# Linux – Important Topics & Learning Resources
 
-## 1. Introduction & Prerequisites
-Linux is the operating system powering enterprise servers, cloud instances (AWS EC2), containers (Docker), and edge infrastructure. Mastering the shell environment, process lifecycle, filesystem permissions, stream redirection, and text processing utilities (`grep`, `sed`, `awk`) is essential for any senior engineer.
+## 1. Linux Fundamentals
+- [ ] Introduction to Linux
+- [ ] What is an Operating System?
+- [ ] Linux vs Unix vs Windows
+- [ ] Linux Architecture
+- [ ] Linux Kernel
+- [ ] Shell and Terminal
+- [ ] Linux Distributions (Ubuntu, Debian, Fedora, Arch)
+- [ ] Open Source Concepts
+- [ ] Linux Boot Process
+- [ ] Kernel Space vs User Space
+- [ ] GUI vs CLI
+- [ ] Linux Directory Structure
+- [ ] Root Directory (`/`)
+- [ ] Home Directory (`~`)
+- [ ] Absolute vs Relative Paths
+- [ ] Linux File Types
 
-- **Prerequisites:** Basic terminal window usage.
-- **Estimated Study Time:** 16 hours
-- **Difficulty:** Intermediate
+**Resources:**
+- [Linux Journey](https://linuxjourney.com/)
+- [Ubuntu Documentation](https://documentation.ubuntu.com/)
+- [The Linux Documentation Project](https://tldp.org/)
 
----
+## 2. Essential Linux Commands
+- [ ] `pwd` – Current Directory
+- [ ] `ls` – List Files
+- [ ] `cd` – Change Directory
+- [ ] `mkdir` – Create Directory
+- [ ] `rmdir` – Remove Empty Directory
+- [ ] `touch` – Create Files
+- [ ] `cp` – Copy Files
+- [ ] `mv` – Move or Rename Files
+- [ ] `rm` – Remove Files
+- [ ] `cat` – Display File Content
+- [ ] `less` and `more` – Read Files
+- [ ] `head` and `tail`
+- [ ] `echo` and `printf`
+- [ ] `clear`
+- [ ] `history`
+- [ ] `man` – Manual Pages
+- [ ] `which` and `whereis`
+- [ ] `find` and `locate`
+- [ ] `file` – Identify File Type
+- [ ] `stat` – File Information
 
-## 2. Detailed Learning Objectives
-- Navigate the UNIX Filesystem Hierarchy Standard (FHS: `/etc`, `/var`, `/usr`, `/proc`, `/dev`).
-- Master standard streams (`stdin`, `stdout`, `stderr`), pipes (`|`), and redirection operators (`>`, `>>`, `2>&1`).
-- Perform text processing using `grep`, `awk`, `sed`, `cut`, `sort`, and `uniq`.
-- Manage Linux processes: signals (`SIGTERM`, `SIGKILL`), foreground/background jobs, `ps`, `top`, `htop`, `systemd`.
-- Configure POSIX file permissions (`chmod`, `chown`, octal notation, sticky bit, umask).
-- Author modular, robust Bash automation scripts with error checking (`set -euo pipefail`).
+**Resources:**
+- [Linux Commands – Ubuntu](https://ubuntu.com/tutorials/command-line-for-beginners)
+- [Linux Command Library](https://linuxcommandlibrary.com/)
 
----
+## 3. File System and File Management
+- [ ] Linux File System Hierarchy
+- [ ] `/bin` and `/sbin`
+- [ ] `/etc`
+- [ ] `/home`
+- [ ] `/root`
+- [ ] `/var`
+- [ ] `/tmp`
+- [ ] `/usr`
+- [ ] `/dev`
+- [ ] `/proc`
+- [ ] `/sys`
+- [ ] `/opt`
+- [ ] File Extensions
+- [ ] Hidden Files and Directories
+- [ ] Wildcards (`*`, `?`)
+- [ ] File Compression
+- [ ] `tar`
+- [ ] `gzip` and `gunzip`
+- [ ] `zip` and `unzip`
+- [ ] Symbolic Links
+- [ ] Hard Links
+- [ ] Disk Partitions
+- [ ] Mounting and Unmounting
+- [ ] Filesystem Types (ext4, XFS, Btrfs)
 
-## 3. Beginner-to-Advanced Topic Checklist
-- [ ] UNIX Filesystem Hierarchy (`/bin`, `/etc`, `/home`, `/var/log`, `/proc`, `/tmp`)
-- [ ] Standard I/O Streams (`stdin` 0, `stdout` 1, `stderr` 2)
-- [ ] Redirection Operators (`<`, `>`, `>>`, `2>`, `&>`, `|`)
-- [ ] File Permissions & Ownership (`chmod 755`, `chown user:group`, octal representation)
-- [ ] Process Inspection & Control (`ps aux`, `top`, `kill`, `killall`, `pkill`)
-- [ ] System Resource Monitoring (`free -m`, `df -h`, `du -sh`, `uptime`, `vmstat`)
-- [ ] Advanced Text Processing (`grep -rnE`, `awk '{print $1}'`, `sed 's/find/replace/g'`)
-- [ ] Networking CLI Tools (`curl -Iv`, `netstat`/`ss -tulpn`, `dig`, `traceroute`, `ping`)
-- [ ] SSH & Key Management (`ssh-keygen`, `~/.ssh/authorized_keys`, `scp`, `rsync`)
-- [ ] Bash Scripting Robustness (`#!/usr/bin/env bash`, `set -euo pipefail`, trap handling)
+**Resources:**
+- [Linux Filesystem Hierarchy](https://refspecs.linuxfoundation.org/FHS_3.0/fhs/index.html)
+- [Linux Journey – Filesystem](https://linuxjourney.com/lesson/filesystem-hierarchy)
 
----
+## 4. Users and Permissions
+- [ ] Linux User Management
+- [ ] Root User
+- [ ] Regular Users
+- [ ] Groups and Group Management
+- [ ] `useradd`
+- [ ] `usermod`
+- [ ] `userdel`
+- [ ] `passwd`
+- [ ] `groupadd`
+- [ ] `groups`
+- [ ] `whoami`
+- [ ] `id`
+- [ ] File Ownership
+- [ ] `chown`
+- [ ] `chgrp`
+- [ ] File Permissions
+- [ ] Read, Write and Execute Permissions
+- [ ] `chmod`
+- [ ] Numeric Permissions (755, 644, 777)
+- [ ] Symbolic Permissions
+- [ ] SUID, SGID and Sticky Bit
+- [ ] `sudo`
+- [ ] `/etc/passwd`
+- [ ] `/etc/shadow`
+- [ ] `/etc/group`
+- [ ] Access Control Lists (ACLs)
 
-## 4. Free Documentation Resources
-- **Linux Journey:** [https://linuxjourney.com/](https://linuxjourney.com/)
-- **The Linux Command Line (Free Book by William Shotts):** [https://linuxcommand.org/tlcl.php](https://linuxcommand.org/tlcl.php)
-- **OverTheWire Bandit Wargame:** [https://overthewire.org/wargames/bandit/](https://overthewire.org/wargames/bandit/)
+**Resources:**
+- [Linux Journey – Permissions](https://linuxjourney.com/lesson/file-permissions)
+- [Ubuntu – User Management](https://documentation.ubuntu.com/server/how-to/security/user-management/)
 
----
+## 5. Text Processing and Search Commands
+- [ ] `grep`
+- [ ] `egrep` and `fgrep`
+- [ ] `sed`
+- [ ] `awk`
+- [ ] `cut`
+- [ ] `sort`
+- [ ] `uniq`
+- [ ] `wc`
+- [ ] `tr`
+- [ ] `diff`
+- [ ] `comm`
+- [ ] `xargs`
+- [ ] `tee`
+- [ ] Regular Expressions
+- [ ] Searching Files
+- [ ] Searching Text Inside Files
+- [ ] Pattern Matching
+- [ ] Text Filtering
+- [ ] Stream Processing
 
-## 5. Free Video Courses & Tutorials
-- **freeCodeCamp:** *Linux for Beginners Full Course*
-- **NetworkChuck:** *Linux for Hackers // Ep. 1-10*
-- **TechWorld with Nana:** *Linux Basics for DevOps*
+**Resources:**
+- [GNU Grep Manual](https://www.gnu.org/software/grep/manual/)
+- [GNU Sed Manual](https://www.gnu.org/software/sed/manual/)
+- [GNU Awk Manual](https://www.gnu.org/software/gawk/manual/)
 
----
+## 6. Shell and Bash Scripting
+- [ ] Introduction to Shell
+- [ ] Bash Shell
+- [ ] Shell Types
+- [ ] Shell Variables
+- [ ] Environment Variables
+- [ ] Local Variables
+- [ ] Export Command
+- [ ] Shell Script Creation
+- [ ] Shebang (`#!/bin/bash`)
+- [ ] Script Execution
+- [ ] Comments
+- [ ] User Input (`read`)
+- [ ] Command-Line Arguments
+- [ ] Positional Parameters (`$1`, `$2`)
+- [ ] Special Variables (`$?`, `$$`, `$#`, `$@`)
+- [ ] Conditional Statements (`if`, `else`, `elif`)
+- [ ] Case Statements
+- [ ] Loops (`for`, `while`, `until`)
+- [ ] Functions
+- [ ] Arrays
+- [ ] String Manipulation
+- [ ] Arithmetic Operations
+- [ ] Exit Status
+- [ ] Return Codes
+- [ ] Command Substitution
+- [ ] Process Substitution
+- [ ] Pipes and Redirection
+- [ ] Error Handling
+- [ ] Debugging Shell Scripts
+- [ ] Cron Jobs with Shell Scripts
 
-## 6. Important Concepts Explained
+**Resources:**
+- [Bash Reference Manual](https://www.gnu.org/software/bash/manual/)
+- [ShellCheck](https://www.shellcheck.net/)
+- [Learn Shell](https://www.learnshell.org/)
 
-### Standard Streams & Pipeline Architecture
-Every UNIX process is initialized with three file descriptors:
-- `0`: Standard Input (`stdin`)
-- `1`: Standard Output (`stdout`)
-- `2`: Standard Error (`stderr`)
+## 7. Process Management
+- [ ] Understanding Linux Processes
+- [ ] Process IDs (PID)
+- [ ] Parent and Child Processes
+- [ ] Foreground and Background Processes
+- [ ] Process States
+- [ ] `ps`
+- [ ] `top`
+- [ ] `htop`
+- [ ] `kill`
+- [ ] `killall`
+- [ ] `pkill`
+- [ ] `nice`
+- [ ] `renice`
+- [ ] `jobs`
+- [ ] `bg`
+- [ ] `fg`
+- [ ] `nohup`
+- [ ] Signals (SIGTERM, SIGKILL, SIGHUP)
+- [ ] Zombie Processes
+- [ ] Orphan Processes
+- [ ] Daemon Processes
+- [ ] Process Scheduling
 
-Pipes (`|`) connect the `stdout` of the upstream process directly to the `stdin` of the downstream process without writing intermediate files to disk.
+**Resources:**
+- [Linux Journey – Processes](https://linuxjourney.com/lesson/processes)
+- [Linux man-pages](https://man7.org/linux/man-pages/)
 
-```
-       Command 1                Pipe (|)               Command 2
- ┌───────────────────┐    ─────────────────►    ┌───────────────────┐
- │ stdout (fd 1)     │                          │ stdin (fd 0)      │
- └───────────────────┘                          └───────────────────┘
-```
+## 8. Package Management
+- [ ] Linux Package Management
+- [ ] APT Package Manager
+- [ ] `apt update`
+- [ ] `apt upgrade`
+- [ ] `apt install`
+- [ ] `apt remove`
+- [ ] `apt purge`
+- [ ] DPKG
+- [ ] YUM and DNF
+- [ ] RPM Package Manager
+- [ ] Snap Packages
+- [ ] Flatpak
+- [ ] Repository Management
+- [ ] Package Dependencies
+- [ ] Installing Software from Source
+- [ ] Updating and Removing Packages
 
----
+**Resources:**
+- [Ubuntu APT Documentation](https://documentation.ubuntu.com/server/how-to/software/package-management/)
+- [DNF Documentation](https://docs.fedoraproject.org/en-US/quick-docs/dnf/)
 
-## 7. Practical Code Examples
+## 9. Networking in Linux
+- [ ] Networking Fundamentals
+- [ ] IP Address
+- [ ] Public vs Private IP
+- [ ] IPv4 and IPv6
+- [ ] MAC Address
+- [ ] DNS
+- [ ] DHCP
+- [ ] Default Gateway
+- [ ] Subnet Mask and CIDR
+- [ ] TCP vs UDP
+- [ ] Ports and Protocols
+- [ ] `ip`
+- [ ] `ifconfig`
+- [ ] `ping`
+- [ ] `traceroute`
+- [ ] `ss`
+- [ ] `netstat`
+- [ ] `curl`
+- [ ] `wget`
+- [ ] `nslookup`
+- [ ] `dig`
+- [ ] `hostname`
+- [ ] `ssh`
+- [ ] `scp`
+- [ ] `rsync`
+- [ ] Firewall Fundamentals
+- [ ] UFW
+- [ ] iptables and nftables
+- [ ] Network Troubleshooting
 
-### Production-Quality Bash Automation Script
-```bash
-#!/usr/bin/env bash
-# Strict error handling: exit on error, exit on unset vars, fail on pipe errors
-set -euo pipefail
-IFS=$'
-	'
+**Resources:**
+- [Linux Networking Documentation](https://docs.kernel.org/networking/)
+- [Ubuntu Networking](https://documentation.ubuntu.com/server/how-to/networking/)
+- [Linux Journey – Networking](https://linuxjourney.com/lesson/networking-basics)
 
-LOG_DIR="/var/log/app"
-BACKUP_DIR="/backups/logs"
-DATE_STAMP=$(date +"%Y%m%d_%H%M%S")
+## 10. Storage and Disk Management
+- [ ] Linux Storage Architecture
+- [ ] HDD vs SSD
+- [ ] Disk Partitions
+- [ ] `lsblk`
+- [ ] `blkid`
+- [ ] `df`
+- [ ] `du`
+- [ ] `fdisk`
+- [ ] `parted`
+- [ ] `mkfs`
+- [ ] `mount`
+- [ ] `umount`
+- [ ] `/etc/fstab`
+- [ ] Swap Space
+- [ ] Logical Volume Management (LVM)
+- [ ] RAID Fundamentals
+- [ ] Disk Usage Monitoring
+- [ ] Inodes
+- [ ] Filesystem Repair
 
-log() {
-  echo "[$(date -u +"%Y-%m-%dT%H:%M:%SZ")] $*"
-}
+**Resources:**
+- [Ubuntu Storage Documentation](https://documentation.ubuntu.com/server/how-to/storage/)
+- [Linux man-pages](https://man7.org/linux/man-pages/)
 
-cleanup() {
-  log "Cleaning up temporary files..."
-  rm -f /tmp/backup_*.tar.gz
-}
-trap cleanup EXIT ERR
+## 11. System Administration
+- [ ] Linux System Administration
+- [ ] Boot Process
+- [ ] BIOS and UEFI Basics
+- [ ] GRUB Bootloader
+- [ ] systemd
+- [ ] systemctl
+- [ ] Managing Services
+- [ ] Starting and Stopping Services
+- [ ] Enabling and Disabling Services
+- [ ] Service Configuration
+- [ ] Journalctl
+- [ ] System Logs
+- [ ] `/var/log`
+- [ ] Log Rotation
+- [ ] Cron and Crontab
+- [ ] Scheduled Tasks
+- [ ] System Monitoring
+- [ ] Resource Monitoring
+- [ ] CPU and Memory Usage
+- [ ] Kernel Modules
+- [ ] Kernel Updates
+- [ ] System Shutdown and Reboot
 
-log "Starting log backup routine..."
-mkdir -p "${BACKUP_DIR}"
+**Resources:**
+- [Ubuntu Server Documentation](https://documentation.ubuntu.com/server/)
+- [systemd Documentation](https://systemd.io/)
+- [Linux Journey – Boot Process](https://linuxjourney.com/lesson/boot-process)
 
-if [[ -d "${LOG_DIR}" ]]; then
-  ARCHIVE_FILE="${BACKUP_DIR}/logs_${DATE_STAMP}.tar.gz"
-  tar -czf "${ARCHIVE_FILE}" -C "${LOG_DIR}" .
-  log "Successfully created archive at ${ARCHIVE_FILE}"
-else
-  log "Error: Directory ${LOG_DIR} not found!"
-  exit 1
-fi
+## 12. Linux Security
+- [ ] Linux Security Fundamentals
+- [ ] User and Group Security
+- [ ] File Permission Security
+- [ ] SSH Security
+- [ ] SSH Key Authentication
+- [ ] Firewall Configuration
+- [ ] UFW and iptables
+- [ ] SELinux Fundamentals
+- [ ] AppArmor
+- [ ] Password Policies
+- [ ] Sudoers Configuration
+- [ ] Security Updates
+- [ ] Log Monitoring
+- [ ] Fail2ban
+- [ ] Secure File Transfer
+- [ ] Open Ports and Services
+- [ ] Principle of Least Privilege
+- [ ] File Integrity Monitoring
 
-# Rotate backups: remove files older than 7 days
-find "${BACKUP_DIR}" -type f -name "logs_*.tar.gz" -mtime +7 -delete
-log "Backup and rotation completed successfully."
-```
+**Resources:**
+- [Ubuntu Security Documentation](https://ubuntu.com/security)
+- [SELinux Project](https://selinuxproject.org/)
+- [AppArmor Documentation](https://apparmor.net/)
 
----
+## 13. Linux for DevOps and Cloud Engineering
+- [ ] Linux Server Fundamentals
+- [ ] SSH into Remote Servers
+- [ ] Remote Server Administration
+- [ ] Environment Variables
+- [ ] Bash Automation
+- [ ] Process and Resource Monitoring
+- [ ] Service Management
+- [ ] Log Management
+- [ ] Networking and Firewall
+- [ ] Disk and Storage Management
+- [ ] Docker Fundamentals
+- [ ] Docker Installation on Linux
+- [ ] Docker Images and Containers
+- [ ] Docker Volumes
+- [ ] Docker Networking
+- [ ] Docker Compose
+- [ ] Container Logs
+- [ ] Kubernetes Fundamentals
+- [ ] Linux Namespaces
+- [ ] Control Groups (cgroups)
+- [ ] Virtualization
+- [ ] Cloud VM Management
+- [ ] Nginx Basics
+- [ ] Reverse Proxy
+- [ ] Web Server Configuration
+- [ ] CI/CD on Linux Servers
 
-## 8. Practice Assignments
-1. **Assignment 1:** Play through levels 0-10 of OverTheWire Bandit to practice navigation, file permissions, hidden files, and password extraction.
-2. **Assignment 2:** Write a shell one-liner that parses an Nginx `access.log` file, extracts the client IP address (column 1), counts occurrences, and prints the top 5 most frequent visitors.
+**Resources:**
+- [Docker Documentation](https://docs.docker.com/)
+- [Kubernetes Documentation](https://kubernetes.io/docs/home/)
+- [DigitalOcean Tutorials](https://www.digitalocean.com/community/tutorials)
+- [Linux Foundation Training](https://training.linuxfoundation.org/)
 
----
+## 14. Linux Internals and Advanced Concepts
+- [ ] Linux Kernel Architecture
+- [ ] System Calls
+- [ ] Kernel vs User Mode
+- [ ] Process Scheduling
+- [ ] Context Switching
+- [ ] Virtual Memory
+- [ ] Paging
+- [ ] Memory Management
+- [ ] File Descriptors
+- [ ] Inodes and VFS
+- [ ] Pipes and Named Pipes
+- [ ] Inter-Process Communication (IPC)
+- [ ] Signals
+- [ ] Shared Memory
+- [ ] Semaphores
+- [ ] Mutexes
+- [ ] Linux Namespaces
+- [ ] Control Groups
+- [ ] Kernel Modules
+- [ ] Device Drivers
+- [ ] `/proc` and `/sys`
+- [ ] strace
+- [ ] lsof
+- [ ] ltrace
 
-## 9. Mini-Projects
-- **Automated System Health Monitor Daemon:** A Bash script that runs every 5 minutes (via cron/systemd timer) to check CPU usage, RAM utilization, and disk space, sending an alert if disk usage exceeds 85%.
+**Resources:**
+- [Linux Kernel Documentation](https://docs.kernel.org/)
+- [The Linux Programming Interface](https://man7.org/tlpi/)
+- [Linux Insides](https://github.com/0xAX/linux-insides)
 
----
+## Best Overall Learning Resources
 
-## 10. Interview Questions & Detailed Answers
-
-### Q1: What does `chmod 755` mean in octal notation?
-**Answer:** File permissions are divided into three groups: Owner, Group, and Others. The permission values are Read (4), Write (2), and Execute (1).
-- `7` (4+2+1) = Read, Write, Execute for the Owner.
-- `5` (4+0+1) = Read and Execute for the Group.
-- `5` (4+0+1) = Read and Execute for Others.
-
-### Q2: What is the difference between `SIGTERM` (signal 15) and `SIGKILL` (signal 9)?
-**Answer:** `SIGTERM` is the polite termination request; the receiving process can catch the signal, flush database connections, complete in-flight requests, remove temporary files, and exit gracefully. `SIGKILL` cannot be caught, blocked, or ignored; the Linux kernel immediately terminates the process and reclaims memory, which can lead to data corruption if writes were in progress.
-
----
-
-## 11. Revision Notes
-- Always start Bash scripts with `set -euo pipefail`.
-- Use `grep -rn "pattern" .` to search recursively with line numbers.
-- Use `ss -tulpn` to check listening network ports and binding processes.
-- Quote shell variables (`"${VAR}"`) to prevent word splitting and glob expansion.
-
----
-
-## 12. Topic Completion Checklist
-- [ ] Mastered standard streams, redirection, and pipes
-- [ ] Understand file permission octals and groups
-- [ ] Filtered and formatted logs using `awk` and `grep`
-- [ ] Created a robust Bash automation script with traps
+| Resource | Best For |
+|---|---|
+| [Linux Journey](https://linuxjourney.com/) | Beginner to intermediate Linux |
+| [Linux Command Library](https://linuxcommandlibrary.com/) | Command reference |
+| [The Linux Documentation Project](https://tldp.org/) | Linux tutorials |
+| [Ubuntu Documentation](https://documentation.ubuntu.com/) | Linux administration |
+| [OverTheWire: Bandit](https://overthewire.org/wargames/bandit/)

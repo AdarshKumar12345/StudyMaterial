@@ -1,129 +1,423 @@
-# Git Internals, Branching Strategies & Advanced GitHub Workflows
+# Git & GitHub – Important Topics & Learning Resources
 
-## 1. Introduction & Prerequisites
-Git is a distributed content-addressable storage system with a version control system (VCS) user interface. Understanding Git's underlying object model (blobs, trees, commits, annotated tags) transforms Git from a source of anxiety and accidental data loss into an indispensable engineering tool.
+## 1. Git Fundamentals
+- [ ] Introduction to Version Control Systems
+- [ ] What is Git?
+- [ ] What is GitHub?
+- [ ] Git vs GitHub
+- [ ] Distributed Version Control System
+- [ ] Installing and Configuring Git
+- [ ] Git Architecture
+- [ ] Working Directory
+- [ ] Staging Area (Index)
+- [ ] Local Repository
+- [ ] Remote Repository
+- [ ] Git Configuration
+- [ ] Global vs Local Configuration
+- [ ] `.git` Directory
+- [ ] Git Workflow
 
-- **Prerequisites:** Terminal basics, file navigation.
-- **Estimated Study Time:** 10 hours
-- **Difficulty:** Intermediate
+**Resources:**
+- [Official Git Documentation](https://git-scm.com/doc)
+- [Git Handbook – GitHub](https://docs.github.com/en/get-started/using-git/about-git)
 
----
+## 2. Essential Git Commands
+- [ ] `git init`
+- [ ] `git clone`
+- [ ] `git status`
+- [ ] `git add`
+- [ ] `git commit`
+- [ ] `git log`
+- [ ] `git diff`
+- [ ] `git show`
+- [ ] `git reset`
+- [ ] `git restore`
+- [ ] `git rm`
+- [ ] `git mv`
+- [ ] `git clean`
+- [ ] `git config`
+- [ ] `git help`
+- [ ] `git reflog`
 
-## 2. Detailed Learning Objectives
-- Understand Git's internal data model: SHA-1/SHA-256 hashes, Blobs, Trees, Commits, and HEAD references.
-- Master the three Git trees: Working Directory, Staging Area (Index), and Commit History (Repository).
-- Master interactive rebasing (`git rebase -i`), squashing, cherry-picking, and reflog data recovery.
-- Resolve complex merge conflicts safely with 3-way diff analysis.
-- Understand enterprise Git workflows: Trunk-Based Development, GitFlow, Pull Request reviews, and CI hooks.
+**Resources:**
+- [Git Reference](https://git-scm.com/docs)
+- [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 
----
+## 3. Git Branching and Merging
+- [ ] What is Branching?
+- [ ] Creating Branches
+- [ ] Listing Branches
+- [ ] Switching Branches
+- [ ] `git branch`
+- [ ] `git switch`
+- [ ] `git checkout`
+- [ ] Renaming Branches
+- [ ] Deleting Branches
+- [ ] Merging Branches
+- [ ] Fast-Forward Merge
+- [ ] Three-Way Merge
+- [ ] Merge Conflicts
+- [ ] Resolving Merge Conflicts
+- [ ] Abort Merge
+- [ ] Rebase
+- [ ] Interactive Rebase
+- [ ] Cherry-Pick
+- [ ] Squash Commits
+- [ ] Detached HEAD State
 
-## 3. Beginner-to-Advanced Topic Checklist
-- [ ] Git Three-Stage Architecture (Working Directory, Staging Index, Repository)
-- [ ] Git Object Store Internals (`.git/objects/`, Blobs, Trees, Commits)
-- [ ] Branching & Detached HEAD States
-- [ ] Fast-Forward vs Three-Way Merges
-- [ ] Rebasing vs Merging (`git rebase`, `git merge --no-ff`)
-- [ ] Interactive Rebase (`git rebase -i HEAD~5`, squash, fixup, reword)
-- [ ] Recovering "Lost" Commits with `git reflog`
-- [ ] Selective Patching (`git cherry-pick`, `git add -p`)
-- [ ] Submodules vs Subtrees
-- [ ] GitHub Collaboration: PR templates, branch protection rules, code owners (`CODEOWNERS`)
+**Resources:**
+- [Git Branching](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
+- [Learn Git Branching – Interactive](https://learngitbranching.js.org/)
 
----
+## 4. Git Remote and Collaboration
+- [ ] What is a Remote Repository?
+- [ ] `git remote`
+- [ ] `git remote add`
+- [ ] `git remote -v`
+- [ ] `git fetch`
+- [ ] `git pull`
+- [ ] `git push`
+- [ ] `git push -u origin main`
+- [ ] Upstream Branch
+- [ ] Tracking Branches
+- [ ] Origin vs Upstream
+- [ ] Forking Repositories
+- [ ] Cloning Forked Repositories
+- [ ] Syncing Forks
+- [ ] Pull Requests
+- [ ] Code Reviews
+- [ ] Merge Pull Requests
+- [ ] Draft Pull Requests
+- [ ] Resolving PR Conflicts
+- [ ] Collaboration Workflow
 
-## 4. Free Documentation Resources
-- **Pro Git Book (Official Free Book):** [https://git-scm.com/book/en/v2](https://git-scm.com/book/en/v2)
-- **Learn Git Branching (Interactive Visualizer):** [https://learngitbranching.js.org/](https://learngitbranching.js.org/)
-- **GitHub Skills (Interactive Labs):** [https://skills.github.com/](https://skills.github.com/)
+**Resources:**
+- [GitHub Collaboration](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests)
+- [GitHub Forking](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks)
 
----
+## 5. Git History and Undoing Changes
+- [ ] Understanding Git Commit History
+- [ ] `git log --oneline`
+- [ ] `git log --graph`
+- [ ] `git show`
+- [ ] `git diff`
+- [ ] `git diff --staged`
+- [ ] `git reset --soft`
+- [ ] `git reset --mixed`
+- [ ] `git reset --hard`
+- [ ] `git revert`
+- [ ] `git restore`
+- [ ] `git reflog`
+- [ ] Undo Last Commit
+- [ ] Amend Last Commit
+- [ ] Recover Deleted Commits
+- [ ] Recover Lost Changes
+- [ ] Reset vs Revert
+- [ ] Reflog for Recovery
 
-## 5. Free Video Courses & Tutorials
-- **freeCodeCamp:** *Git & GitHub Crash Course for Beginners*
-- **The Modern Coder:** *Git Internals & How Git Works Under the Hood*
-- **Traversy Media:** *Git & GitHub Tutorial for Beginners*
+**Resources:**
+- [Git Reset Documentation](https://git-scm.com/docs/git-reset)
+- [Git Revert Documentation](https://git-scm.com/docs/git-revert)
+- [Atlassian – Undoing Changes](https://www.atlassian.com/git/tutorials/undoing-changes)
 
----
+## 6. Git Advanced Concepts
+- [ ] Git Internals
+- [ ] Git Objects
+- [ ] Blob Objects
+- [ ] Tree Objects
+- [ ] Commit Objects
+- [ ] HEAD and References
+- [ ] Git Tags
+- [ ] Lightweight vs Annotated Tags
+- [ ] Git Stash
+- [ ] `git stash apply`
+- [ ] `git stash pop`
+- [ ] `git stash list`
+- [ ] Git Worktrees
+- [ ] Git Hooks
+- [ ] Pre-Commit Hooks
+- [ ] Git Submodules
+- [ ] Nested Git Repositories
+- [ ] `.gitignore`
+- [ ] Git Attributes
+- [ ] Large File Storage (Git LFS)
+- [ ] Sparse Checkout
+- [ ] Bisect
+- [ ] Blame
+- [ ] Archive
 
-## 6. Important Concepts Explained
+**Resources:**
+- [Pro Git Book](https://git-scm.com/book/en/v2)
+- [Git Internals](https://git-scm.com/book/en/v2/Git-Internals-Plumbing-and-Porcelain)
+- [Git LFS](https://git-lfs.com/)
 
-### The Git Object Model
-Every object in Git is identified by the hash of its content plus a small header:
-- **Blob:** Stores raw file data without metadata or filenames.
-- **Tree:** Represents a directory; maps filenames and permissions to Blob or sub-Tree hashes.
-- **Commit:** Stores a pointer to the root Tree, parent commit hash(es), author, committer, timestamp, and message.
+## 7. GitHub Fundamentals
+- [ ] Introduction to GitHub
+- [ ] Creating a GitHub Account
+- [ ] Creating Repositories
+- [ ] Public vs Private Repositories
+- [ ] Repository Settings
+- [ ] README.md
+- [ ] Markdown Syntax
+- [ ] Repository Description and Topics
+- [ ] GitHub Profile
+- [ ] Profile README
+- [ ] Pinned Repositories
+- [ ] GitHub Stars and Forks
+- [ ] Watching Repositories
+- [ ] GitHub Releases
+- [ ] GitHub Discussions
+- [ ] GitHub Issues
+- [ ] Labels and Milestones
+- [ ] Issue Templates
+- [ ] Pull Request Templates
+- [ ] GitHub Projects
+- [ ] GitHub Notifications
 
-```
-Commit (hash: 7a8f1b)
-  ├── Parent: 3b4c2e
-  ├── Author: Adarsh Kumar
-  └── Tree: 9c01da
-        ├── README.md -> Blob (a1b2c3)
-        └── src/      -> Tree (d4e5f6)
-```
+**Resources:**
+- [GitHub Docs](https://docs.github.com/en)
+- [GitHub Skills](https://skills.github.com/)
 
----
+## 8. GitHub Authentication and Security
+- [ ] HTTPS Authentication
+- [ ] SSH Authentication
+- [ ] Generating SSH Keys
+- [ ] Adding SSH Keys to GitHub
+- [ ] SSH Agent
+- [ ] Personal Access Tokens (PAT)
+- [ ] Fine-Grained Tokens
+- [ ] Git Credential Manager
+- [ ] Two-Factor Authentication
+- [ ] Repository Permissions
+- [ ] Collaborator Access
+- [ ] Organization Roles
+- [ ] Branch Protection Rules
+- [ ] Rulesets
+- [ ] Protected Branches
+- [ ] Secret Scanning
+- [ ] Dependabot
+- [ ] Code Scanning
+- [ ] GitHub Security Advisories
+- [ ] Avoiding Secret and API Key Exposure
 
-## 7. Practical Code Examples
+**Resources:**
+- [GitHub Authentication](https://docs.github.com/en/authentication)
+- [GitHub Security](https://docs.github.com/en/code-security)
 
-### Essential Git Diagnostic & Remediation Commands
+## 9. Git Branching Strategies and Professional Workflows
+- [ ] Main and Development Branches
+- [ ] Feature Branch Workflow
+- [ ] GitHub Flow
+- [ ] Git Flow
+- [ ] Trunk-Based Development
+- [ ] Release Branches
+- [ ] Hotfix Branches
+- [ ] Branch Naming Conventions
+- [ ] Commit Message Conventions
+- [ ] Conventional Commits
+- [ ] Semantic Versioning
+- [ ] Pull Request Workflow
+- [ ] Code Review Best Practices
+- [ ] Squash and Merge
+- [ ] Rebase and Merge
+- [ ] Merge Commit Strategy
+- [ ] Maintaining Clean Commit History
+
+**Resources:**
+- [Atlassian – Git Workflows](https://www.atlassian.com/git/tutorials/comparing-workflows)
+- [Conventional Commits](https://www.conventionalcommits.org/)
+- [Semantic Versioning](https://semver.org/)
+
+## 10. GitHub Actions and CI/CD
+- [ ] Introduction to CI/CD
+- [ ] Continuous Integration
+- [ ] Continuous Delivery
+- [ ] Continuous Deployment
+- [ ] GitHub Actions Fundamentals
+- [ ] Workflows
+- [ ] Events and Triggers
+- [ ] Jobs
+- [ ] Steps
+- [ ] Actions
+- [ ] Runners
+- [ ] Workflow YAML Syntax
+- [ ] Environment Variables
+- [ ] Secrets and Variables
+- [ ] GitHub Actions Marketplace
+- [ ] Build and Test Automation
+- [ ] Automated Linting
+- [ ] Deployment Automation
+- [ ] Matrix Builds
+- [ ] Job Dependencies
+- [ ] Caching Dependencies
+- [ ] Artifacts
+- [ ] Workflow Permissions
+- [ ] Reusable Workflows
+
+**Resources:**
+- [GitHub Actions Documentation](https://docs.github.com/en/actions)
+- [GitHub Actions Quickstart](https://docs.github.com/en/actions/get-started/quickstart)
+- [GitHub Actions Marketplace](https://github.com/marketplace?type=actions)
+
+## 11. GitHub Pages and Deployment
+- [ ] Introduction to GitHub Pages
+- [ ] Static Website Hosting
+- [ ] Configuring GitHub Pages
+- [ ] Custom Domains
+- [ ] HTTPS Configuration
+- [ ] Deploying React Applications
+- [ ] Deployment Using GitHub Actions
+- [ ] Build and Deployment Workflows
+- [ ] GitHub Pages Limitations
+
+**Resources:**
+- [GitHub Pages Documentation](https://docs.github.com/en/pages)
+- [GitHub Pages Quickstart](https://docs.github.com/en/pages/quickstart)
+
+## 12. GitHub CLI and Developer Tools
+- [ ] GitHub CLI Installation
+- [ ] `gh auth login`
+- [ ] `gh repo create`
+- [ ] `gh repo clone`
+- [ ] `gh pr create`
+- [ ] `gh pr list`
+- [ ] `gh pr checkout`
+- [ ] `gh issue create`
+- [ ] `gh workflow`
+- [ ] GitHub Desktop
+- [ ] VS Code Git Integration
+- [ ] GitLens
+- [ ] GitHub Copilot
+- [ ] GitHub API
+- [ ] GitHub REST API
+- [ ] GitHub GraphQL API
+
+**Resources:**
+- [GitHub CLI](https://cli.github.com/manual/)
+- [GitHub Desktop](https://desktop.github.com/)
+- [GitLens](https://gitlens.amod.io/)
+- [GitHub REST API](https://docs.github.com/en/rest)
+
+## 13. Git Best Practices
+- [ ] Write Meaningful Commit Messages
+- [ ] Commit Small and Logical Changes
+- [ ] Use Meaningful Branch Names
+- [ ] Maintain a Proper README
+- [ ] Use `.gitignore` Correctly
+- [ ] Never Commit API Keys or Secrets
+- [ ] Review Changes Before Committing
+- [ ] Avoid Unnecessary Force Pushes
+- [ ] Keep Branches Updated
+- [ ] Resolve Conflicts Carefully
+- [ ] Keep Repository Structure Clean
+- [ ] Use Pull Requests for Collaboration
+- [ ] Review Code Before Merging
+- [ ] Use Tags for Releases
+- [ ] Maintain Documentation
+
+**Resources:**
+- [Git Best Practices](https://www.atlassian.com/git/tutorials/comparing-workflows)
+- [GitHub Best Practices](https://docs.github.com/en/get-started)
+
+## Best Overall Learning Resources
+
+| Resource | Best For |
+|---|---|
+| [Pro Git Book](https://git-scm.com/book/en/v2) | Complete Git learning |
+| [Git Documentation](https://git-scm.com/doc) | Official Git reference |
+| [GitHub Skills](https://skills.github.com/) | Hands-on GitHub practice |
+| [Learn Git Branching](https://learngitbranching.js.org/) | Visual branching concepts |
+| [Oh My Git!](https://ohmygit.org/) | Learning Git interactively |
+| [Atlassian Git Tutorials](https://www.atlassian.com/git/tutorials) | Git workflows |
+| [GitHub Docs](https://docs.github.com/en) | GitHub features |
+| [Roadmap.sh – Git and GitHub](https://roadmap.sh/git-github) | Topic reference |
+
+## Important Git Commands – Quick Reference
+
+### Repository Setup
+
 ```bash
-# 1. Inspect the last 10 commits with graph visualization
-git log --graph --oneline --decorate --all -n 10
-
-# 2. Stage only specific hunks of changes interactively
-git add -p src/App.js
-
-# 3. Clean up the last 3 local commits before pushing
-git rebase -i HEAD~3
-
-# 4. Emergency data recovery: find commits detached or deleted
-git reflog
-# Check out the commit SHA found in reflog
-git checkout 3f8a91c
-# Or restore branch pointer
-git branch recovery-branch 3f8a91c
-
-# 5. Stash with descriptive message including untracked files
-git stash push -u -m "wip: authentication flow draft"
-git stash list
-git stash pop
+git init
+git clone <repository-url>
+git status
 ```
 
----
+### Adding and Committing
 
-## 8. Practice Assignments
-1. **Assignment 1:** Complete levels 1 through 15 on [learngitbranching.js.org](https://learngitbranching.js.org/) to master rebasing, cherry-picking, and branch manipulation.
-2. **Assignment 2:** Intentionally cause a merge conflict between two branches, resolve it using diff markers, verify the commit history with `git log --graph`, and push cleanly.
+```bash
+git add .
+git add <file-name>
+git commit -m "Your commit message"
+git log --oneline
+```
 
----
+### Branching
 
-## 9. Mini-Projects
-- **Automated Git Hook Setup:** Configure a pre-commit hook using shell scripts to run linting, verify no `.env` files or secret tokens are staged, and format code before allowing commits.
+```bash
+git branch
+git branch <branch-name>
+git switch <branch-name>
+git switch -c <branch-name>
+git merge <branch-name>
+git branch -d <branch-name>
+```
 
----
+### Remote Operations
 
-## 10. Interview Questions & Detailed Answers
+```bash
+git remote -v
+git remote add origin <repository-url>
+git fetch origin
+git pull origin main
+git push origin main
+```
 
-### Q1: What is the difference between `git merge` and `git rebase`?
-**Answer:** `git merge` creates a new "merge commit" that ties together two parent histories, preserving the exact chronological sequence and branch structure. `git rebase` rewrites the commit history by replaying commits from the current branch onto the tip of the target branch. This results in a clean, linear commit history, but changes commit hashes and should never be used on shared public branches.
+### Undoing Changes
 
-### Q2: How does `git reflog` differ from `git log`?
-**Answer:** `git log` traverses the commit ancestry starting from the current commit (`HEAD`). If a commit is orphaned (e.g. after a hard reset), it disappears from `git log`. `git reflog` records every update made to local branch pointers and `HEAD` (checkouts, resets, rebases, commits). It acts as an undo log, allowing recovery of virtually any commit created within the local retention window (default 30-90 days).
+```bash
+git restore <file-name>
+git restore --staged <file-name>
+git reset --soft HEAD~1
+git reset --hard HEAD~1
+git revert <commit-id>
+git reflog
+```
 
----
+### Stashing
 
-## 11. Revision Notes
-- Never rebase commits that have already been pushed to a public/shared branch.
-- Use `git commit --amend --no-edit` to add forgotten staged files to the latest commit.
-- Use `git restore --staged <file>` to unstage without discarding working directory changes.
-- Always configure `.gitignore` before starting a project to avoid committing build artifacts or credentials.
+```bash
+git stash
+git stash list
+git stash apply
+git stash pop
+git stash drop
+```
 
----
+### Advanced Operations
 
-## 12. Topic Completion Checklist
-- [ ] Understand Blobs, Trees, and Commits
-- [ ] Performed interactive rebase (`squash`, `reword`)
-- [ ] Recovered a lost commit using `git reflog`
-- [ ] Resolved merge conflicts using 3-way merge markers
+```bash
+git rebase main
+git cherry-pick <commit-id>
+git rebase -i HEAD~3
+git tag -a v1.0.0 -m "Version 1.0.0"
+git bisect start
+git blame <file-name>
+```
+
+## Important Concepts to Master
+
+- **Git:** Version control system that tracks changes in your code.
+- **GitHub:** Cloud-based platform for hosting Git repositories and collaboration.
+- **Commit:** A snapshot of repository changes.
+- **Branch:** An independent line of development.
+- **Merge:** Combines changes from different branches.
+- **Rebase:** Reapplies commits onto another base commit.
+- **Pull:** Fetches and integrates remote changes.
+- **Fetch:** Downloads remote changes without integrating them.
+- **Fork:** Creates your own GitHub copy of another repository.
+- **Pull Request:** Proposes changes for review and merging.
+- **Stash:** Temporarily saves uncommitted changes.
+- **Cherry-Pick:** Applies a selected commit to another branch.
+- **Reflog:** Records movements of local Git references.
+- **CI/CD:** Automates building, testing and deployment.
+
