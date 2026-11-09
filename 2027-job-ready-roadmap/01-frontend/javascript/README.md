@@ -1,123 +1,231 @@
-# Modern JavaScript (ES6+), Event Loop & Asynchronous Architecture
+# JavaScript (ES6+) – Important Topics & Learning Resources
 
-## 1. Introduction & Prerequisites
-JavaScript is the runtime engine of modern web architectures. Understanding execution context, call stack behavior, microtask vs macrotask scheduling, closures, prototype chains, and asynchronous programming with Promises and `async`/`await` is non-negotiable for enterprise engineering.
+## 1. JavaScript Fundamentals
+- [ ] Variables: var, let, const
+- [ ] Data Types and Type Coercion
+- [ ] Operators and Expressions
+- [ ] Conditional Statements and Loops
+- [ ] Truthy and Falsy Values
+- [ ] == vs ===
+- [ ] null vs undefined
+- [ ] Type Conversion
+- [ ] Strict Mode
 
-- **Prerequisites:** HTML5 DOM structure, basic CSS concepts.
-- **Estimated Study Time:** 24 hours
-- **Difficulty:** Intermediate
+**Resources:**
+- [MDN – JavaScript Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
+- [JavaScript.info – Fundamentals](https://javascript.info/first-steps)
 
----
+## 2. Functions and Scope
+- [ ] Function Declaration vs Expression
+- [ ] Arrow Functions
+- [ ] Callback Functions
+- [ ] Higher-Order Functions
+- [ ] Default and Rest Parameters
+- [ ] Scope: Global, Function and Block
+- [ ] Hoisting and Temporal Dead Zone
+- [ ] Lexical Scope and Scope Chain
+- [ ] Closures
+- [ ] this Keyword
+- [ ] call(), apply() and bind()
+- [ ] IIFE
+- [ ] Currying and Memoization
 
-## 2. Detailed Learning Objectives
-- Deeply understand the JavaScript Execution Context, Scope Chain, and Closures.
-- Master the JavaScript Event Loop, Call Stack, Web APIs, Microtask Queue (Promises), and Macrotask Queue (setTimeout).
-- Write clean asynchronous code with native Promises, `Promise.allSettled`, and `async`/`await`.
-- Manipulate the DOM efficiently using event delegation and modern DOM querying APIs.
-- Master ES6+ features: Destructuring, Spread/Rest, Modules, Optional Chaining, Nullish Coalescing.
+**Resources:**
+- [JavaScript.info – Functions](https://javascript.info/function-basics)
+- [Namaste JavaScript – Akshay Saini](https://www.youtube.com/@akshaymarch7)
 
----
+## 3. Objects and Prototypes
+- [ ] Object Creation and Properties
+- [ ] Object Destructuring
+- [ ] Spread and Rest Operators
+- [ ] Shallow Copy vs Deep Copy
+- [ ] Object Methods
+- [ ] Getters and Setters
+- [ ] Object.freeze() and Object.seal()
+- [ ] Prototype and Prototype Chain
+- [ ] Prototypal Inheritance
+- [ ] Constructor Functions
+- [ ] ES6 Classes
+- [ ] Inheritance and super
+- [ ] Encapsulation and Polymorphism
 
-## 3. Beginner-to-Advanced Topic Checklist
-- [ ] Variables & Scopes (`var` vs `let` vs `const`, Temporal Dead Zone, Block Scope)
-- [ ] Execution Context, Hoisting, and Lexical Scope
-- [ ] Closures & Practical Encapsulation Patterns
-- [ ] Prototype Chain, Inheritance, and ES6 Classes
-- [ ] The Event Loop: Call Stack, Web APIs, Microtasks (`Promise`), Macrotasks (`setTimeout`)
-- [ ] Asynchronous JavaScript: Callbacks, Promises, `async`/`await`, Error Handling (`try/catch/finally`)
-- [ ] Array Methods: `map`, `filter`, `reduce`, `flatMap`, `some`, `every`, `find`
-- [ ] Modern DOM Manipulation & Event Delegation (`addEventListener`, `event.target`)
-- [ ] Native ES Modules (`import`, `export`, `<script type="module">`)
-- [ ] Web Storage APIs (`localStorage`, `sessionStorage`, `IndexedDB`)
+**Resources:**
+- [JavaScript.info – Objects](https://javascript.info/objects)
+- [MDN – Inheritance](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 
----
+## 4. Arrays and Array Methods
+- [ ] Array Creation and Manipulation
+- [ ] Array Destructuring
+- [ ] Spread Operator
+- [ ] map()
+- [ ] filter()
+- [ ] reduce()
+- [ ] forEach()
+- [ ] find() and findIndex()
+- [ ] some() and every()
+- [ ] sort()
+- [ ] slice() and splice()
+- [ ] flat() and flatMap()
+- [ ] includes()
+- [ ] Array Method Chaining
 
-## 4. Free Documentation Resources
-- **MDN Web Docs — JavaScript Guide:** [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
-- **JavaScript.info (The Modern JavaScript Tutorial):** [https://javascript.info/](https://javascript.info/)
-- **You Don't Know JS (Book Series):** [https://github.com/getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS)
+**Resources:**
+- [MDN – Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+- [JavaScript.info – Arrays](https://javascript.info/array)
 
----
+## 5. Modern ES6+ Features
+- [ ] Template Literals
+- [ ] Destructuring
+- [ ] Spread and Rest Operators
+- [ ] Default Parameters
+- [ ] Optional Chaining (?.)
+- [ ] Nullish Coalescing (??)
+- [ ] Enhanced Object Literals
+- [ ] Modules: import and export
+- [ ] Dynamic Imports
+- [ ] Promises
+- [ ] Classes
+- [ ] Map and Set
+- [ ] WeakMap and WeakSet
+- [ ] Symbol and BigInt
+- [ ] Iterators and Generators
+- [ ] Private Class Fields
+- [ ] Top-Level Await
 
-## 5. Free Video Courses & Tutorials
-- **freeCodeCamp:** JavaScript Programming Full Course
-- **Lydia Hallie:** JavaScript Visualized: Event Loop, Scope, and Promises
-- **Traversy Media:** JavaScript Modern ES6+ Tutorial
+**Resources:**
+- [MDN – JavaScript Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
+- [JavaScript.info – Modern JavaScript](https://javascript.info/)
 
----
+## 6. Asynchronous JavaScript
+- [ ] Synchronous vs Asynchronous JavaScript
+- [ ] Callbacks and Callback Hell
+- [ ] Promises
+- [ ] Promise States
+- [ ] then(), catch(), finally()
+- [ ] Promise Chaining
+- [ ] Promise.all()
+- [ ] Promise.allSettled()
+- [ ] Promise.race()
+- [ ] Promise.any()
+- [ ] Async/Await
+- [ ] Try/Catch/Finally
+- [ ] Fetch API
+- [ ] AbortController
+- [ ] Error Handling
+- [ ] Sequential vs Parallel Execution
 
-## 6. Important Concepts Explained
+**Resources:**
+- [JavaScript.info – Promises](https://javascript.info/async)
+- [MDN – Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 
-### The Event Loop Architecture
-JavaScript is single-threaded. Asynchronous tasks (like network fetches or timers) are delegated to browser Web APIs.
-- **Microtask Queue:** Promise callbacks (`.then()`, `catch()`, `await` resumptions). Microtasks are processed immediately when the call stack empties, before any rendering or macrotasks.
-- **Macrotask Queue:** `setTimeout`, `setInterval`, I/O, UI events.
+## 7. Event Loop and JavaScript Architecture
+- [ ] JavaScript Runtime
+- [ ] JavaScript Engine (V8)
+- [ ] Execution Context
+- [ ] Call Stack
+- [ ] Memory Heap
+- [ ] Web APIs
+- [ ] Event Loop
+- [ ] Microtask Queue
+- [ ] Macrotask / Task Queue
+- [ ] setTimeout() and setInterval()
+- [ ] queueMicrotask()
+- [ ] Promise Execution Order
+- [ ] Event Loop Execution Order
+- [ ] Browser vs Node.js Event Loop
 
----
+**Resources:**
+- [JavaScript Visualized – Lydia Hallie](https://www.lydiahallie.com/)
+- [Jake Archibald – Tasks, Microtasks, Queues and Schedules](https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/)
+- [MDN – Event Loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Event_loop)
 
-## 7. Practical Code Examples
+## 8. DOM Manipulation and Events
+- [ ] DOM Tree and DOM Nodes
+- [ ] querySelector() and querySelectorAll()
+- [ ] getElementById()
+- [ ] Creating and Removing Elements
+- [ ] innerHTML vs textContent
+- [ ] Attributes and dataset
+- [ ] classList and CSS Manipulation
+- [ ] Event Listeners
+- [ ] Event Bubbling and Capturing
+- [ ] Event Delegation
+- [ ] event.target vs event.currentTarget
+- [ ] preventDefault() and stopPropagation()
+- [ ] Form Handling and Validation
+- [ ] Debouncing and Throttling
 
-### Modern Async Fetch with AbortController, Timeout, and Error Handling
-```javascript
-export async function fetchWithTimeout(url, timeoutMs = 5000) {
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), timeoutMs);
+**Resources:**
+- [MDN – DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
+- [JavaScript.info – Events](https://javascript.info/events)
 
-  try {
-    const response = await fetch(url, {
-      signal: controller.signal,
-      headers: { 'Accept': 'application/json' }
-    });
+## 9. Browser APIs and Storage
+- [ ] localStorage
+- [ ] sessionStorage
+- [ ] IndexedDB
+- [ ] Cookies
+- [ ] Fetch API
+- [ ] XMLHttpRequest
+- [ ] URL and URLSearchParams
+- [ ] History API
+- [ ] Intersection Observer
+- [ ] Mutation Observer
+- [ ] Resize Observer
+- [ ] Web Workers
+- [ ] Service Workers
+- [ ] WebSockets
+- [ ] Geolocation API
+- [ ] File API and Blob
 
-    if (!response.ok) {
-      throw new Error(`HTTP Error: ${response.status} ${response.statusText}`);
-    }
+**Resources:**
+- [MDN – Web APIs](https://developer.mozilla.org/en-US/docs/Web/API)
+- [MDN – Web Storage](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API)
 
-    return await response.json();
-  } catch (error) {
-    if (error.name === 'AbortError') {
-      throw new Error(`Request timed out after ${timeoutMs}ms: ${url}`);
-    }
-    throw error;
-  } finally {
-    clearTimeout(timer);
-  }
-}
-```
+## 10. Advanced JavaScript Concepts
+- [ ] Functional Programming
+- [ ] Pure vs Impure Functions
+- [ ] Immutability
+- [ ] Function Composition
+- [ ] Recursion
+- [ ] Garbage Collection
+- [ ] Memory Leaks
+- [ ] Shallow vs Deep Cloning
+- [ ] Debouncing and Throttling
+- [ ] Event-Driven Architecture
+- [ ] Error Handling
+- [ ] Performance Optimization
+- [ ] JavaScript Security (XSS, CSRF, CORS)
+- [ ] Regular Expressions
 
----
+**Resources:**
+- [You Don't Know JS Yet](https://github.com/getify/You-Dont-Know-JS)
+- [MDN – JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-## 8. Practice Assignments
-1. **Assignment 1:** Implement your own custom `Promise.all` polyfill that handles an array of promises, resolves when all succeed, or rejects immediately on the first error.
-2. **Assignment 2:** Implement a high-performance debounced search input with an auto-suggest dropdown using vanilla JavaScript event delegation.
+## 11. JavaScript for Backend Development (Node.js)
+- [ ] Node.js Architecture
+- [ ] V8 and Libuv
+- [ ] CommonJS vs ES Modules
+- [ ] npm and npx
+- [ ] package.json
+- [ ] File System (fs)
+- [ ] HTTP Module
+- [ ] EventEmitter
+- [ ] Streams and Buffers
+- [ ] Middleware Concepts
+- [ ] Environment Variables
+- [ ] Worker Threads
+- [ ] Error Handling
 
----
+**Resources:**
+- [Official Node.js Documentation](https://nodejs.org/docs/latest/api/)
+- [Node.js Learn](https://nodejs.org/en/learn)
 
-## 9. Mini-Projects
-- **Offline-First Task Tracker:** Build a Kanban task application with vanilla ES Modules that persists all tasks to `localStorage` with JSON import/export.
+## Best Overall Learning Resources
 
----
-
-## 10. Interview Questions & Detailed Answers
-
-### Q1: What is a Closure in JavaScript and what is a common practical use case?
-**Answer:** A closure is the combination of a function bundled together with references to its surrounding lexical environment. It gives an inner function access to an outer function's scope even after the outer function has returned. Common use cases include data privacy/encapsulation, memoization caches, and event handler configuration.
-
-### Q2: What is the output order of `setTimeout` vs `Promise.resolve`?
-**Answer:** Microtasks (Promise resolutions) always execute before Macrotasks (`setTimeout`). Even with `setTimeout(..., 0)`, the Promise callback runs first as soon as synchronous execution finishes.
-
----
-
-## 11. Revision Notes
-- Use `const` by default; use `let` only when reassigning; never use `var`.
-- Use optional chaining (`user?.profile?.avatar`) and nullish coalescing (`value ?? defaultValue`).
-- Always wrap `await` calls in `try...catch` blocks.
-- Use `structuredClone(obj)` for deep copying objects instead of `JSON.parse(JSON.stringify(obj))`.
-
----
-
-## 12. Topic Completion Checklist
-- [ ] Understand Call Stack, Microtasks, and Macrotasks
-- [ ] Implemented an asynchronous function with timeout cancellation
-- [ ] Mastered closures and lexical scoping
-- [ ] Built an interactive UI using native ES Modules
+| Resource | Best For |
+|---|---|
+| [JavaScript.info](https://javascript.info/) | Complete JavaScript learning |
+| [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript) | Official documentation |
+| [Namaste JavaScript](https://www.youtube.com/@akshaymarch7) | Deep JavaScript concepts |
+| [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS) | Advanced understanding |
+| [Eloquent JavaScript](https://eloquentjavascript.net/) | Practical programming |
