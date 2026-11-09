@@ -1,0 +1,1353 @@
+{
+  "version": "1.0.0",
+  "repository": "AdarshKumar12345/2027-job-ready-roadmap",
+  "title": "2027 Job-Ready Developer Roadmap & Study Platform",
+  "lastUpdated": "2026-11-09",
+  "totalModules": 12,
+  "totalTopics": 67,
+  "modules": [
+    {
+      "id": "01-frontend",
+      "title": "Frontend Development",
+      "icon": "layout",
+      "description": "Master modern semantic HTML5, responsive CSS3 layouts, modern ES6+ JavaScript, Tailwind CSS, and React component architecture.",
+      "topics": [
+        {
+          "id": "frontend-html",
+          "title": "HTML5 Architecture & Accessibility",
+          "slug": "html",
+          "path": "01-frontend/html/README.md",
+          "difficulty": "Beginner",
+          "estimatedHours": 8,
+          "description": "Semantic markup, web accessibility (WCAG/ARIA), forms, and modern DOM structure.",
+          "tags": [
+            "HTML5",
+            "Accessibility",
+            "ARIA",
+            "SEO",
+            "Semantic Web"
+          ],
+          "prerequisites": [
+            "Basic computer literacy",
+            "Text editor setup"
+          ]
+        },
+        {
+          "id": "frontend-css",
+          "title": "Modern CSS3, Flexbox & Grid",
+          "slug": "css",
+          "path": "01-frontend/css/README.md",
+          "difficulty": "Beginner",
+          "estimatedHours": 14,
+          "description": "Box model, CSS Grid, Flexbox, responsive design, custom properties, animations.",
+          "tags": [
+            "CSS3",
+            "Flexbox",
+            "CSS Grid",
+            "Responsive",
+            "Variables"
+          ],
+          "prerequisites": [
+            "HTML5 Architecture"
+          ]
+        },
+        {
+          "id": "frontend-javascript",
+          "title": "Modern JavaScript (ES6+) & Async Programming",
+          "slug": "javascript",
+          "path": "01-frontend/javascript/README.md",
+          "difficulty": "Intermediate",
+          "estimatedHours": 24,
+          "description": "Execution context, event loop, closures, prototypes, Promises, async/await, DOM APIs, and ES Modules.",
+          "tags": [
+            "JavaScript",
+            "ES6+",
+            "Event Loop",
+            "Promises",
+            "Async/Await",
+            "DOM"
+          ],
+          "prerequisites": [
+            "HTML5",
+            "CSS3"
+          ]
+        },
+        {
+          "id": "frontend-tailwind",
+          "title": "Tailwind CSS & Modern Utility Styling",
+          "slug": "tailwind",
+          "path": "01-frontend/tailwind/README.md",
+          "difficulty": "Intermediate",
+          "estimatedHours": 10,
+          "description": "Utility-first CSS, responsive modifiers, theme customization, components, and design systems.",
+          "tags": [
+            "Tailwind CSS",
+            "CSS",
+            "Design Systems",
+            "Responsive"
+          ],
+          "prerequisites": [
+            "CSS3 Box Model",
+            "Flexbox"
+          ]
+        },
+        {
+          "id": "frontend-react",
+          "title": "React 19 & Component-Driven UI",
+          "slug": "react",
+          "path": "01-frontend/react/README.md",
+          "difficulty": "Intermediate",
+          "estimatedHours": 26,
+          "description": "Functional components, hooks (useState, useEffect, useMemo, useCallback), context, state management, and performance.",
+          "tags": [
+            "React",
+            "Hooks",
+            "State Management",
+            "Virtual DOM",
+            "JSX"
+          ],
+          "prerequisites": [
+            "Modern JavaScript ES6+"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02-developer-tools",
+      "title": "Developer Tooling & Environments",
+      "icon": "terminal",
+      "description": "Master the developer workstation with professional Git/GitHub branching workflows and UNIX/Linux systems administration.",
+      "topics": [
+        {
+          "id": "tools-git-github",
+          "title": "Git Internals & Advanced GitHub Workflows",
+          "slug": "git-github",
+          "path": "02-developer-tools/git-github/README.md",
+          "difficulty": "Intermediate",
+          "estimatedHours": 10,
+          "description": "Git object store (blobs, trees, commits), rebasing, cherry-picking, bisecting, merge conflict resolution, and PR workflows.",
+          "tags": [
+            "Git",
+            "GitHub",
+            "Version Control",
+            "Rebase",
+            "Workflows"
+          ],
+          "prerequisites": [
+            "Terminal basics"
+          ]
+        },
+        {
+          "id": "tools-linux",
+          "title": "Linux Command Line, Shell Scripting & Systems",
+          "slug": "linux",
+          "path": "02-developer-tools/linux/README.md",
+          "difficulty": "Intermediate",
+          "estimatedHours": 16,
+          "description": "Linux filesystem hierarchy, pipes, redirection, grep/sed/awk, process management, permissions, and bash automation.",
+          "tags": [
+            "Linux",
+            "Bash",
+            "CLI",
+            "System Administration",
+            "Shell Scripting"
+          ],
+          "prerequisites": [
+            "Basic terminal commands"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03-core-java",
+      "title": "Core Java Mastery (Java 21 LTS)",
+      "icon": "coffee",
+      "description": "Master modern enterprise Java from JVM memory architecture to multithreading, Project Loom Virtual Threads, and Streams.",
+      "topics": [
+        {
+          "id": "java-fundamentals",
+          "title": "Java Fundamentals, Memory Model & JVM Internals",
+          "slug": "java-fundamentals",
+          "path": "03-core-java/java-fundamentals/README.md",
+          "difficulty": "Beginner",
+          "estimatedHours": 14,
+          "description": "JDK vs JRE vs JVM, ClassLoader, Stack vs Heap memory, garbage collection algorithms, records, pattern matching, sealed types.",
+          "tags": [
+            "Java 21",
+            "JVM",
+            "Memory Management",
+            "Garbage Collection"
+          ],
+          "prerequisites": [
+            "Basic programming logic"
+          ]
+        },
+        {
+          "id": "java-oops",
+          "title": "Advanced Object-Oriented Programming & SOLID",
+          "slug": "oops",
+          "path": "03-core-java/oops/README.md",
+          "difficulty": "Intermediate",
+          "estimatedHours": 16,
+          "description": "Polymorphism, abstraction, encapsulation, inheritance, SOLID design principles, and enterprise design patterns.",
+          "tags": [
+            "OOP",
+            "SOLID",
+            "Design Patterns",
+            "Refactoring"
+          ],
+          "prerequisites": [
+            "Java Fundamentals"
+          ]
+        },
+        {
+          "id": "java-collections",
+          "title": "Java Collections Framework Internals",
+          "slug": "collections",
+          "path": "03-core-java/collections/README.md",
+          "difficulty": "Intermediate",
+          "estimatedHours": 18,
+          "description": "ArrayList, LinkedList, HashMap hashing & collision resolution, ConcurrentHashMap, TreeMap, PriorityQueue, and Generics.",
+          "tags": [
+            "Collections",
+            "HashMap",
+            "Data Structures",
+            "Generics"
+          ],
+          "prerequisites": [
+            "Java OOP"
+          ]
+        },
+        {
+          "id": "java-multithreading",
+          "title": "Java Concurrency & Multithreading",
+          "slug": "multithreading",
+          "path": "03-core-java/multithreading/README.md",
+          "difficulty": "Advanced",
+          "estimatedHours": 22,
+          "description": "Thread lifecycles, synchronization, volatile, atomic classes, ReentrantLock, CountDownLatch, ExecutorService, and thread safety.",
+          "tags": [
+            "Multithreading",
+            "Concurrency",
+            "Locks",
+            "ExecutorService",
+            "Thread Safety"
+          ],
+          "prerequisites": [
+            "Java Fundamentals",
+            "Collections"
+          ]
+        },
+        {
+          "id": "java-virtual-threads",
+          "title": "Project Loom & Virtual Threads",
+          "slug": "virtual-threads",
+          "path": "03-core-java/virtual-threads/README.md",
+          "difficulty": "Advanced",
+          "estimatedHours": 12,
+          "description": "Platform threads vs Virtual Threads, carrier thread scheduling, continuation yielding, structured concurrency, and scoping.",
+          "tags": [
+            "Virtual Threads",
+            "Project Loom",
+            "Java 21",
+            "High Throughput"
+          ],
+          "prerequisites": [
+            "Java Multithreading"
+          ]
+        },
+        {
+          "id": "java-functional-programming",
+          "title": "Functional Programming in Java",
+          "slug": "functional-programming",
+          "path": "03-core-java/functional-programming/README.md",
+          "difficulty": "Intermediate",
+          "estimatedHours": 10,
+          "description": "Lambdas, method references, Function, Predicate, Consumer, Supplier, and custom functional interfaces.",
+          "tags": [
+            "Functional Programming",
+            "Lambdas",
+            "Functional Interfaces"
+          ],
+          "prerequisites": [
+            "Java OOP"
+          ]
+        },
+        {
+          "id": "java-streams",
+          "title": "Java Stream API & Parallel Streams",
+          "slug": "streams",
+          "path": "03-core-java/streams/README.md",
+          "difficulty": "Intermediate",
+          "estimatedHours": 12,
+          "description": "Intermediate vs terminal operations, Collectors, map/filter/reduce, flatMap, performance pitfalls, and parallel streams.",
+          "tags": [
+            "Stream API",
+            "Collectors",
+            "Parallel Processing",
+            "Functional"
+          ],
+          "prerequisites": [
+            "Functional Programming",
+            "Collections"
+          ]
+        },
+        {
+          "id": "java-file-handling",
+          "title": "Modern File Handling & NIO.2",
+          "slug": "file-handling",
+          "path": "03-core-java/file-handling/README.md",
+          "difficulty": "Intermediate",
+          "estimatedHours": 8,
+          "description": "java.nio.file APIs, Path, Files, Channels, ByteBuffers, asynchronous file I/O, and memory-mapped files.",
+          "tags": [
+            "Java NIO",
+            "File I/O",
+            "Buffers",
+            "Asynchronous I/O"
+          ],
+          "prerequisites": [
+            "Java Fundamentals"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04-spring-boot-backend",
+      "title": "Enterprise Backend with Spring Boot 3+",
+      "icon": "server",
+      "description": "Construct robust cloud-ready backend microservices with Spring Boot 3, Hibernate JPA, Spring Security 6, Redis, and Kafka.",
+      "topics": [
+        {
+          "id": "backend-maven",
+          "title": "Apache Maven & Build Lifecycles",
+          "slug": "maven",
+          "path": "04-spring-boot-backend/maven/README.md",
+          "difficulty": "Beginner",
+          "estimatedHours": 6,
+          "description": "POM structure, build lifecycles, dependency scopes, transitive dependencies, BOM, and plugins.",
+          "tags": [
+            "Maven",
+            "Build Tools",
+            "Dependency Management"
+          ],
+          "prerequisites": [
+            "Java Fundamentals"
+          ]
+        },
+        {
+          "id": "backend-spring-core",
+          "title": "Spring Core, IoC & Dependency Injection",
+          "slug": "spring-core",
+          "path": "04-spring-boot-backend/spring-core/README.md",
+          "difficulty": "Intermediate",
+          "estimatedHours": 14,
+          "description": "Inversion of Control, ApplicationContext, Bean scopes, lifecycle hooks, Component scanning, and Spring AOP.",
+          "tags": [
+            "Spring Core",
+            "IoC",
+            "Dependency Injection",
+            "AOP"
+          ],
+          "prerequisites": [
+            "Java OOP",
+            "Maven"
+          ]
+        },
+        {
+          "id": "backend-spring-boot",
+          "title": "Spring Boot 3 Architecture & REST APIs",
+          "slug": "spring-boot",
+          "path": "04-spring-boot-backend/spring-boot/README.md",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "description": "Auto-configuration internals, Starters, REST Controllers, Request validation, Exception handling, and Actuator.",
+          "tags": [
+            "Spring Boot 3",
+            "REST API",
+            "Validation",
+            "Actuator"
+          ],
+          "prerequisites": [
+            "Spring Core"
+          ]
+        },
+        {
+          "id": "backend-hibernate",
+          "title": "Hibernate ORM & Spring Data JPA",
+          "slug": "hibernate",
+          "path": "04-spring-boot-backend/hibernate/README.md",
+          "difficulty": "Intermediate",
+          "estimatedHours": 18,
+          "description": "Entity mapping, relationships, JPQL, Spring Data JPA repositories, transaction management, N+1 query problem, and auditing.",
+          "tags": [
+            "Hibernate",
+            "JPA",
+            "SQL",
+            "Transactions",
+            "ORM"
+          ],
+          "prerequisites": [
+            "Spring Boot",
+            "SQL Basics"
+          ]
+        },
+        {
+          "id": "backend-spring-security",
+          "title": "Spring Security 6, JWT & OAuth2",
+          "slug": "spring-security",
+          "path": "04-spring-boot-backend/spring-security/README.md",
+          "difficulty": "Advanced",
+          "estimatedHours": 22,
+          "description": "SecurityFilterChain, filters, UserDetails, stateless authentication, JWT generation/validation, OAuth2 login, and method security.",
+          "tags": [
+            "Spring Security",
+            "JWT",
+            "Authentication",
+            "OAuth2",
+            "RBAC"
+          ],
+          "prerequisites": [
+            "Spring Boot REST APIs"
+          ]
+        },
+        {
+          "id": "backend-redis",
+          "title": "Redis Distributed Caching & Data Structures",
+          "slug": "redis",
+          "path": "04-spring-boot-backend/redis/README.md",
+          "difficulty": "Intermediate",
+          "estimatedHours": 12,
+          "description": "Redis data structures, cache-aside pattern, TTL, eviction policies, distributed locks with Redisson, and pub/sub.",
+          "tags": [
+            "Redis",
+            "Caching",
+            "Distributed Systems",
+            "Performance"
+          ],
+          "prerequisites": [
+            "Spring Boot"
+          ]
+        },
+        {
+          "id": "backend-elasticsearch",
+          "title": "Elasticsearch Full-Text Search & Analytics",
+          "slug": "elasticsearch",
+          "path": "04-spring-boot-backend/elasticsearch/README.md",
+          "difficulty": "Advanced",
+          "estimatedHours": 14,
+          "description": "Inverted indexes, documents, mapping, analyzers, query DSL, fuzzy search, and aggregations with Spring Data Elasticsearch.",
+          "tags": [
+            "Elasticsearch",
+            "Search Engine",
+            "Indexing",
+            "Analytics"
+          ],
+          "prerequisites": [
+            "REST APIs",
+            "Spring Data"
+          ]
+        },
+        {
+          "id": "backend-rabbitmq",
+          "title": "RabbitMQ Message Broker & AMQP",
+          "slug": "rabbitmq",
+          "path": "04-spring-boot-backend/rabbitmq/README.md",
+          "difficulty": "Intermediate",
+          "estimatedHours": 12,
+          "description": "AMQP protocol, exchanges, queues, bindings, message acknowledgments, DLQs, and Spring AMQP integration.",
+          "tags": [
+            "RabbitMQ",
+            "Message Broker",
+            "AMQP",
+            "Async Processing"
+          ],
+          "prerequisites": [
+            "Spring Boot"
+          ]
+        },
+        {
+          "id": "backend-kafka",
+          "title": "Apache Kafka Distributed Event Streaming",
+          "slug": "kafka",
+          "path": "04-spring-boot-backend/kafka/README.md",
+          "difficulty": "Advanced",
+          "estimatedHours": 22,
+          "description": "Commit logs, topics, partitions, consumer groups, offset commits, replication, Kafka Streams, and Spring Kafka.",
+          "tags": [
+            "Apache Kafka",
+            "Event Streaming",
+            "Distributed Systems",
+            "EDA"
+          ],
+          "prerequisites": [
+            "Spring Boot",
+            "Multithreading"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05-cloud-devops",
+      "title": "Cloud Infrastructure & DevOps",
+      "icon": "cloud",
+      "description": "Automate builds and containerized deployments across AWS Cloud infrastructure, Docker, Kubernetes, and Jenkins CI/CD.",
+      "topics": [
+        {
+          "id": "cloud-aws",
+          "title": "Amazon Web Services (AWS) Core Services",
+          "slug": "aws",
+          "path": "05-cloud-devops/aws/README.md",
+          "difficulty": "Intermediate",
+          "estimatedHours": 18,
+          "description": "IAM roles/policies, VPC networking, EC2 compute, S3 storage, RDS databases, CloudWatch, and AWS SDK integration.",
+          "tags": [
+            "AWS",
+            "Cloud",
+            "EC2",
+            "S3",
+            "IAM",
+            "VPC"
+          ],
+          "prerequisites": [
+            "Linux Basics",
+            "Networking Basics"
+          ]
+        },
+        {
+          "id": "devops-docker",
+          "title": "Docker Containerization & Docker Compose",
+          "slug": "docker",
+          "path": "05-cloud-devops/docker/README.md",
+          "difficulty": "Intermediate",
+          "estimatedHours": 14,
+          "description": "Images, containers, multi-stage Dockerfiles, layer caching, volume mounts, bridge networks, and Docker Compose stacks.",
+          "tags": [
+            "Docker",
+            "Containers",
+            "DevOps",
+            "Docker Compose"
+          ],
+          "prerequisites": [
+            "Linux Command Line"
+          ]
+        },
+        {
+          "id": "devops-kubernetes",
+          "title": "Kubernetes Orchestration & Helm",
+          "slug": "kubernetes",
+          "path": "05-cloud-devops/kubernetes/README.md",
+          "difficulty": "Advanced",
+          "estimatedHours": 24,
+          "description": "Control plane, Pods, Deployments, Services (ClusterIP, NodePort, LoadBalancer), Ingress, ConfigMaps, Secrets, and Helm charts.",
+          "tags": [
+            "Kubernetes",
+            "K8s",
+            "Orchestration",
+            "DevOps",
+            "Helm"
+          ],
+          "prerequisites": [
+            "Docker"
+          ]
+        },
+        {
+          "id": "devops-jenkins",
+          "title": "Jenkins CI/CD Automation & Pipelines",
+          "slug": "jenkins",
+          "path": "05-cloud-devops/jenkins/README.md",
+          "difficulty": "Intermediate",
+          "estimatedHours": 12,
+          "description": "Declarative Jenkinsfiles, automated stages, Docker agent integration, secrets management, and automated deployments.",
+          "tags": [
+            "Jenkins",
+            "CI/CD",
+            "Automation",
+            "DevOps"
+          ],
+          "prerequisites": [
+            "Git",
+            "Docker"
+          ]
+        },
+        {
+          "id": "devops-nginx",
+          "title": "Nginx Reverse Proxy & Load Balancing",
+          "slug": "nginx",
+          "path": "05-cloud-devops/nginx/README.md",
+          "difficulty": "Intermediate",
+          "estimatedHours": 10,
+          "description": "Reverse proxy configuration, upstream load balancing algorithms, SSL/TLS termination with Let's Encrypt, caching, and rate limiting.",
+          "tags": [
+            "Nginx",
+            "Reverse Proxy",
+            "Load Balancing",
+            "SSL/TLS"
+          ],
+          "prerequisites": [
+            "Networking Basics",
+            "Linux"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06-microservices",
+      "title": "Production Microservices Architecture",
+      "icon": "cpu",
+      "description": "Architect resilient, scalable microservices using Domain-Driven Design, Spring Cloud Gateway, Eureka, and Resilience4j.",
+      "topics": [
+        {
+          "id": "micro-fundamentals",
+          "title": "Microservices Architecture & Domain-Driven Design",
+          "slug": "fundamentals",
+          "path": "06-microservices/fundamentals/README.md",
+          "difficulty": "Intermediate",
+          "estimatedHours": 14,
+          "description": "Monolith vs Microservices trade-offs, bounded contexts, domain models, synchronous vs asynchronous communication, and Saga pattern.",
+          "tags": [
+            "Microservices",
+            "DDD",
+            "Architecture",
+            "Saga Pattern"
+          ],
+          "prerequisites": [
+            "Spring Boot",
+            "REST APIs"
+          ]
+        },
+        {
+          "id": "micro-api-gateway",
+          "title": "Spring Cloud Gateway & Edge Routing",
+          "slug": "api-gateway",
+          "path": "06-microservices/api-gateway/README.md",
+          "difficulty": "Intermediate",
+          "estimatedHours": 12,
+          "description": "Route predicates, gateway filters, authentication verification at edge, CORS configuration, and request transformation.",
+          "tags": [
+            "API Gateway",
+            "Spring Cloud",
+            "Routing",
+            "Security"
+          ],
+          "prerequisites": [
+            "Microservices Fundamentals"
+          ]
+        },
+        {
+          "id": "micro-config-server",
+          "title": "Centralized Configuration with Spring Cloud Config",
+          "slug": "config-server",
+          "path": "06-microservices/config-server/README.md",
+          "difficulty": "Intermediate",
+          "estimatedHours": 8,
+          "description": "Externalized configuration, Git backends, encryption/decryption of secrets, and dynamic refresh with @RefreshScope.",
+          "tags": [
+            "Spring Cloud Config",
+            "Configuration Management",
+            "Git"
+          ],
+          "prerequisites": [
+            "Spring Boot"
+          ]
+        },
+        {
+          "id": "micro-eureka",
+          "title": "Service Discovery with Netflix Eureka",
+          "slug": "eureka",
+          "path": "06-microservices/eureka/README.md",
+          "difficulty": "Intermediate",
+          "estimatedHours": 10,
+          "description": "Service registration, heartbeats, Eureka server setup, Eureka clients, and client-side load balancing with Spring Cloud LoadBalancer.",
+          "tags": [
+            "Eureka",
+            "Service Discovery",
+            "Load Balancing"
+          ],
+          "prerequisites": [
+            "Spring Boot"
+          ]
+        },
+        {
+          "id": "micro-circuit-breaker",
+          "title": "Resilience4j Circuit Breaker & Fault Tolerance",
+          "slug": "circuit-breaker",
+          "path": "06-microservices/circuit-breaker/README.md",
+          "difficulty": "Advanced",
+          "estimatedHours": 12,
+          "description": "Circuit breaker states (CLOSED, OPEN, HALF_OPEN), fallbacks, retry patterns, time limiters, and bulkhead isolation.",
+          "tags": [
+            "Resilience4j",
+            "Circuit Breaker",
+            "Fault Tolerance",
+            "Reliability"
+          ],
+          "prerequisites": [
+            "Spring Boot Microservices"
+          ]
+        },
+        {
+          "id": "micro-rate-limiting",
+          "title": "Distributed Rate Limiting & Throttling",
+          "slug": "rate-limiting",
+          "path": "06-microservices/rate-limiting/README.md",
+          "difficulty": "Advanced",
+          "estimatedHours": 10,
+          "description": "Token Bucket, Leaky Bucket, Sliding Window algorithms, Redis-backed distributed rate limiting, and HTTP 429 handling.",
+          "tags": [
+            "Rate Limiting",
+            "Token Bucket",
+            "Redis",
+            "Throttling"
+          ],
+          "prerequisites": [
+            "Redis",
+            "Spring Cloud Gateway"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07-observability",
+      "title": "Observability & Production Monitoring",
+      "icon": "activity",
+      "description": "Gain complete visibility into distributed production workloads with Prometheus, Grafana, OpenTelemetry, and ELK Stack.",
+      "topics": [
+        {
+          "id": "obs-elk-stack",
+          "title": "ELK Stack / OpenSearch Centralized Logging",
+          "slug": "elk-stack",
+          "path": "07-observability/elk-stack/README.md",
+          "difficulty": "Intermediate",
+          "estimatedHours": 14,
+          "description": "Logback JSON appenders, Filebeat log shippers, Logstash pipelines, Elasticsearch indexing, and Kibana query dashboards.",
+          "tags": [
+            "ELK",
+            "Logging",
+            "Elasticsearch",
+            "Logstash",
+            "Kibana"
+          ],
+          "prerequisites": [
+            "Elasticsearch",
+            "Docker"
+          ]
+        },
+        {
+          "id": "obs-prometheus",
+          "title": "Prometheus Time-Series Metrics & PromQL",
+          "slug": "prometheus",
+          "path": "07-observability/prometheus/README.md",
+          "difficulty": "Intermediate",
+          "estimatedHours": 12,
+          "description": "Metric types (Counter, Gauge, Histogram, Summary), pull-based scraping, PromQL queries, alerting rules, and Alertmanager.",
+          "tags": [
+            "Prometheus",
+            "Metrics",
+            "PromQL",
+            "Monitoring"
+          ],
+          "prerequisites": [
+            "Docker Basics"
+          ]
+        },
+        {
+          "id": "obs-grafana",
+          "title": "Grafana Dashboards & Alerting",
+          "slug": "grafana",
+          "path": "07-observability/grafana/README.md",
+          "difficulty": "Intermediate",
+          "estimatedHours": 10,
+          "description": "Data sources, visual panels, dynamic variables, alerting channels (Slack, Email), and dashboard templates for JVM and Spring.",
+          "tags": [
+            "Grafana",
+            "Dashboards",
+            "Visualization",
+            "Alerts"
+          ],
+          "prerequisites": [
+            "Prometheus"
+          ]
+        },
+        {
+          "id": "obs-micrometer",
+          "title": "Micrometer Instrumentation & Spring Actuator",
+          "slug": "micrometer",
+          "path": "07-observability/micrometer/README.md",
+          "difficulty": "Intermediate",
+          "estimatedHours": 10,
+          "description": "Spring Boot Actuator endpoints (/metrics, /health, /info), Micrometer meters, custom timers, gauges, and Prometheus formatting.",
+          "tags": [
+            "Micrometer",
+            "Spring Actuator",
+            "Instrumentation",
+            "JVM Metrics"
+          ],
+          "prerequisites": [
+            "Spring Boot"
+          ]
+        },
+        {
+          "id": "obs-monitoring",
+          "title": "Distributed Tracing & OpenTelemetry",
+          "slug": "monitoring",
+          "path": "07-observability/monitoring/README.md",
+          "difficulty": "Advanced",
+          "estimatedHours": 14,
+          "description": "Trace IDs, Span IDs, OpenTelemetry Collector, W3C TraceContext propagation, Jaeger, and Zipkin distributed request tracing.",
+          "tags": [
+            "Distributed Tracing",
+            "OpenTelemetry",
+            "Jaeger",
+            "Zipkin"
+          ],
+          "prerequisites": [
+            "Microservices Fundamentals"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08-ai-engineering",
+      "title": "AI Engineering & LLM Application Development",
+      "icon": "sparkles",
+      "description": "Build modern enterprise AI applications using advanced prompt engineering, RAG, vector databases, MCP, and autonomous agents.",
+      "topics": [
+        {
+          "id": "ai-prompt-engineering",
+          "title": "Advanced Prompt Engineering & Reasoning Patterns",
+          "slug": "prompt-engineering",
+          "path": "08-ai-engineering/prompt-engineering/README.md",
+          "difficulty": "Beginner",
+          "estimatedHours": 10,
+          "description": "System prompts, role prompting, zero/few-shot prompting, Chain-of-Thought (CoT), ReAct framework, and prompt vulnerability defense.",
+          "tags": [
+            "Prompt Engineering",
+            "LLM",
+            "Few-Shot",
+            "Reasoning"
+          ],
+          "prerequisites": [
+            "Basic programming"
+          ]
+        },
+        {
+          "id": "ai-structured-outputs",
+          "title": "Structured Outputs, JSON Schema & Pydantic",
+          "slug": "structured-outputs",
+          "path": "08-ai-engineering/structured-outputs/README.md",
+          "difficulty": "Intermediate",
+          "estimatedHours": 10,
+          "description": "Strict JSON Schema mode, Instructor, Pydantic, Zod parsing, field validation, and error recovery techniques.",
+          "tags": [
+            "Structured Outputs",
+            "JSON Schema",
+            "Pydantic",
+            "Validation"
+          ],
+          "prerequisites": [
+            "Prompt Engineering"
+          ]
+        },
+        {
+          "id": "ai-chat-memory",
+          "title": "Conversational Memory & Context Window Management",
+          "slug": "chat-memory",
+          "path": "08-ai-engineering/chat-memory/README.md",
+          "difficulty": "Intermediate",
+          "estimatedHours": 12,
+          "description": "Sliding window buffer, token-aware trimming, conversational summary memory, persistent session storage in Redis.",
+          "tags": [
+            "Memory",
+            "Context Window",
+            "Conversation",
+            "Redis"
+          ],
+          "prerequisites": [
+            "Redis Basics"
+          ]
+        },
+        {
+          "id": "ai-tool-calling",
+          "title": "Tool Calling & Function Calling Systems",
+          "slug": "tool-calling",
+          "path": "08-ai-engineering/tool-calling/README.md",
+          "difficulty": "Intermediate",
+          "estimatedHours": 14,
+          "description": "Function calling schemas, execution loops, multi-tool orchestration, handling tool errors, and sandbox security.",
+          "tags": [
+            "Tool Calling",
+            "Function Calling",
+            "APIs",
+            "Agents"
+          ],
+          "prerequisites": [
+            "Structured Outputs"
+          ]
+        },
+        {
+          "id": "ai-rag",
+          "title": "Retrieval-Augmented Generation (RAG) Architecture",
+          "slug": "rag",
+          "path": "08-ai-engineering/rag/README.md",
+          "difficulty": "Advanced",
+          "estimatedHours": 22,
+          "description": "Document chunking (fixed, semantic, sliding), dense embeddings, metadata filtering, hybrid search, and cross-encoder re-ranking.",
+          "tags": [
+            "RAG",
+            "Retrieval",
+            "Embeddings",
+            "Chunking",
+            "Search"
+          ],
+          "prerequisites": [
+            "Tool Calling"
+          ]
+        },
+        {
+          "id": "ai-vector-search",
+          "title": "Vector Search & Vector Databases",
+          "slug": "vector-search",
+          "path": "08-ai-engineering/vector-search/README.md",
+          "difficulty": "Intermediate",
+          "estimatedHours": 14,
+          "description": "Vector similarity metrics (Cosine, Euclidean, Dot Product), indexing algorithms (HNSW, IVF), Milvus, Pinecone, and pgvector.",
+          "tags": [
+            "Vector DB",
+            "Embeddings",
+            "HNSW",
+            "pgvector",
+            "Similarity Search"
+          ],
+          "prerequisites": [
+            "RAG Architecture"
+          ]
+        },
+        {
+          "id": "ai-mcp",
+          "title": "Model Context Protocol (MCP) Architecture",
+          "slug": "mcp",
+          "path": "08-ai-engineering/mcp/README.md",
+          "difficulty": "Advanced",
+          "estimatedHours": 18,
+          "description": "Model Context Protocol specification, Host-Client-Server topologies, custom MCP tools, resources, prompts, and transport layers (stdio/SSE).",
+          "tags": [
+            "MCP",
+            "Model Context Protocol",
+            "Integration",
+            "Standards"
+          ],
+          "prerequisites": [
+            "Tool Calling",
+            "APIs"
+          ]
+        },
+        {
+          "id": "ai-agents",
+          "title": "Autonomous AI Agents & Multi-Step Reasoning",
+          "slug": "ai-agents",
+          "path": "08-ai-engineering/ai-agents/README.md",
+          "difficulty": "Advanced",
+          "estimatedHours": 22,
+          "description": "Plan-and-execute agents, reflection loops, self-correction, state machines, LangGraph/custom loops, and human-in-the-loop approvals.",
+          "tags": [
+            "AI Agents",
+            "Autonomous",
+            "LangGraph",
+            "Reasoning Loops"
+          ],
+          "prerequisites": [
+            "Tool Calling",
+            "Memory"
+          ]
+        },
+        {
+          "id": "ai-llm-observability",
+          "title": "LLM Observability, Evaluations & Cost Tracing",
+          "slug": "llm-observability",
+          "path": "08-ai-engineering/llm-observability/README.md",
+          "difficulty": "Intermediate",
+          "estimatedHours": 12,
+          "description": "Tracing LLM steps, latency tracking, token usage, cost optimization, evaluation benchmarks (faithfulness, hallucination, RAGAS), and Langfuse.",
+          "tags": [
+            "LLM Observability",
+            "Evals",
+            "Langfuse",
+            "Token Cost"
+          ],
+          "prerequisites": [
+            "RAG",
+            "Observability Basics"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "09-ai-coding",
+      "title": "AI-Assisted Coding & Developer Agent Workflows",
+      "icon": "command",
+      "description": "Supercharge your engineering workflow with multi-agent coding teams, context window management, and spec-driven development.",
+      "topics": [
+        {
+          "id": "aicoding-agent-teams",
+          "title": "Multi-Agent Teams & Subagent Orchestration",
+          "slug": "agent-teams",
+          "path": "09-ai-coding/agent-teams/README.md",
+          "difficulty": "Advanced",
+          "estimatedHours": 14,
+          "description": "Primary vs subagent hierarchy, delegation patterns, inter-agent messaging, isolated branch workspaces, and peer review loops.",
+          "tags": [
+            "Subagents",
+            "Multi-Agent",
+            "Orchestration",
+            "Workspaces"
+          ],
+          "prerequisites": [
+            "AI Agents"
+          ]
+        },
+        {
+          "id": "aicoding-context-management",
+          "title": "Context Management & Token Window Conservation",
+          "slug": "context-management",
+          "path": "09-ai-coding/context-management/README.md",
+          "difficulty": "Intermediate",
+          "estimatedHours": 12,
+          "description": "Context compaction, transcript indexing, sliding window summaries, file excerpting, and preserving critical state.",
+          "tags": [
+            "Context Management",
+            "Token Conservation",
+            "Prompt Architecture"
+          ],
+          "prerequisites": [
+            "Chat Memory"
+          ]
+        },
+        {
+          "id": "aicoding-agent-skills",
+          "title": "Agent Skills & Custom Extension Authoring",
+          "slug": "agent-skills",
+          "path": "09-ai-coding/agent-skills/README.md",
+          "difficulty": "Intermediate",
+          "estimatedHours": 10,
+          "description": "Skill directory conventions, SKILL.md specification, scripts, tool metadata, and dynamic skill discovery.",
+          "tags": [
+            "Agent Skills",
+            "Custom Tools",
+            "Extensibility"
+          ],
+          "prerequisites": [
+            "Developer Tools"
+          ]
+        },
+        {
+          "id": "aicoding-plan-mode",
+          "title": "Plan Mode & Spec-Driven Development",
+          "slug": "plan-mode",
+          "path": "09-ai-coding/plan-mode/README.md",
+          "difficulty": "Intermediate",
+          "estimatedHours": 10,
+          "description": "Separating planning from execution, architectural design documents, human-in-the-loop review, and risk mitigation.",
+          "tags": [
+            "Plan Mode",
+            "Specs",
+            "Engineering Discipline"
+          ],
+          "prerequisites": [
+            "Software Engineering Fundamentals"
+          ]
+        },
+        {
+          "id": "aicoding-agent-loops",
+          "title": "Agent Execution Loops & Self-Correction",
+          "slug": "agent-loops",
+          "path": "09-ai-coding/agent-loops/README.md",
+          "difficulty": "Advanced",
+          "estimatedHours": 14,
+          "description": "Observe-Orient-Decide-Act (OODA) loops, error interception, test feedback loops, and automated self-healing code edits.",
+          "tags": [
+            "Agent Loops",
+            "Self-Healing",
+            "Automated Testing"
+          ],
+          "prerequisites": [
+            "Subagent Orchestration"
+          ]
+        },
+        {
+          "id": "aicoding-token-optimization",
+          "title": "Token Optimization & Cost Engineering",
+          "slug": "token-optimization",
+          "path": "09-ai-coding/token-optimization/README.md",
+          "difficulty": "Intermediate",
+          "estimatedHours": 8,
+          "description": "Token counting, model routing (lightweight vs flagship models), prompt compression, caching mechanisms, and budgeting.",
+          "tags": [
+            "Token Optimization",
+            "Cost Management",
+            "Model Routing"
+          ],
+          "prerequisites": [
+            "Context Management"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10-system-design",
+      "title": "System Design (HLD & LLD)",
+      "icon": "layers",
+      "description": "Design scalable, highly available distributed architectures and master Object-Oriented Low-Level Design (LLD).",
+      "topics": [
+        {
+          "id": "sysdesign-fundamentals",
+          "title": "Distributed System Design Fundamentals",
+          "slug": "fundamentals",
+          "path": "10-system-design/fundamentals/README.md",
+          "difficulty": "Intermediate",
+          "estimatedHours": 16,
+          "description": "CAP theorem, PACELC theorem, consistency models (strong, eventual), database sharding, replication, and load balancing.",
+          "tags": [
+            "System Design",
+            "Distributed Systems",
+            "CAP Theorem",
+            "Sharding"
+          ],
+          "prerequisites": [
+            "Networking Basics",
+            "Database Basics"
+          ]
+        },
+        {
+          "id": "sysdesign-lld",
+          "title": "Low-Level Design (LLD) & Object-Oriented Patterns",
+          "slug": "lld",
+          "path": "10-system-design/lld/README.md",
+          "difficulty": "Advanced",
+          "estimatedHours": 22,
+          "description": "UML class diagrams, SOLID design, design patterns (Factory, Strategy, Observer, State, Decorator), and interview LLD problems.",
+          "tags": [
+            "LLD",
+            "Low-Level Design",
+            "Design Patterns",
+            "Object-Oriented"
+          ],
+          "prerequisites": [
+            "Java OOP",
+            "Design Fundamentals"
+          ]
+        },
+        {
+          "id": "sysdesign-hld",
+          "title": "High-Level Design (HLD) & Scalability",
+          "slug": "hld",
+          "path": "10-system-design/hld/README.md",
+          "difficulty": "Advanced",
+          "estimatedHours": 24,
+          "description": "Caches, CDNs, message brokers, SQL vs NoSQL, back-of-the-envelope calculations, fault tolerance, and geo-distribution.",
+          "tags": [
+            "HLD",
+            "High-Level Design",
+            "Scalability",
+            "Architecture"
+          ],
+          "prerequisites": [
+            "Distributed System Design Fundamentals"
+          ]
+        },
+        {
+          "id": "sysdesign-case-studies",
+          "title": "Real-World System Design Case Studies",
+          "slug": "case-studies",
+          "path": "10-system-design/case-studies/README.md",
+          "difficulty": "Advanced",
+          "estimatedHours": 26,
+          "description": "End-to-end designs: URL Shortener, Video Streaming (YouTube), Messaging (WhatsApp), Ride-Sharing (Uber), and Rate Limiter.",
+          "tags": [
+            "Case Studies",
+            "System Design Interview",
+            "Architecture"
+          ],
+          "prerequisites": [
+            "HLD",
+            "LLD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11-core-cs",
+      "title": "Core Computer Science Foundations",
+      "icon": "book-open",
+      "description": "Master the non-negotiable fundamentals: Data Structures & Algorithms, Operating Systems, DBMS internals, and Computer Networks.",
+      "topics": [
+        {
+          "id": "corecs-dsa",
+          "title": "Data Structures & Algorithms Mastery",
+          "slug": "dsa",
+          "path": "11-core-cs/dsa/README.md",
+          "difficulty": "Advanced",
+          "estimatedHours": 60,
+          "description": "Asymptotic analysis, Arrays, Two Pointers, Sliding Window, Trees, Graphs (Dijkstra, Topological Sort), and Dynamic Programming.",
+          "tags": [
+            "DSA",
+            "Algorithms",
+            "Data Structures",
+            "LeetCode"
+          ],
+          "prerequisites": [
+            "Java Fundamentals"
+          ]
+        },
+        {
+          "id": "corecs-operating-systems",
+          "title": "Operating Systems & Concurrency Internals",
+          "slug": "operating-systems",
+          "path": "11-core-cs/operating-systems/README.md",
+          "difficulty": "Intermediate",
+          "estimatedHours": 18,
+          "description": "Processes, threads, CPU scheduling algorithms, virtual memory, paging, thrashing, deadlocks, and IPC.",
+          "tags": [
+            "Operating Systems",
+            "Processes",
+            "Virtual Memory",
+            "Deadlocks"
+          ],
+          "prerequisites": [
+            "Linux Basics"
+          ]
+        },
+        {
+          "id": "corecs-dbms",
+          "title": "DBMS Internals, Indexing & Transactions",
+          "slug": "dbms",
+          "path": "11-core-cs/dbms/README.md",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "description": "ACID properties, Write-Ahead Logging (WAL), B-Trees / B+ Trees, indexing strategies, transaction isolation levels, and MVCC.",
+          "tags": [
+            "DBMS",
+            "SQL",
+            "B-Trees",
+            "Transactions",
+            "ACID"
+          ],
+          "prerequisites": [
+            "SQL Basics"
+          ]
+        },
+        {
+          "id": "corecs-computer-networks",
+          "title": "Computer Networks & Internet Protocols",
+          "slug": "computer-networks",
+          "path": "11-core-cs/computer-networks/README.md",
+          "difficulty": "Intermediate",
+          "estimatedHours": 18,
+          "description": "OSI model, TCP 3-way handshake, TCP vs UDP, DNS resolution, TLS/SSL handshake, HTTP/1.1 vs HTTP/2 vs HTTP/3, and WebSockets.",
+          "tags": [
+            "Networking",
+            "TCP/IP",
+            "HTTP",
+            "DNS",
+            "WebSockets"
+          ],
+          "prerequisites": [
+            "Developer Tools"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12-projects",
+      "title": "Production-Grade Capstone Projects",
+      "icon": "folder-git-2",
+      "description": "Synthesize all skills by architecting, implementing, testing, and deploying 4 enterprise-grade portfolio projects.",
+      "topics": [
+        {
+          "id": "project-url-shortener",
+          "title": "Project 1: High-Throughput Scalable URL Shortener",
+          "slug": "url-shortener",
+          "path": "12-projects/url-shortener/README.md",
+          "difficulty": "Intermediate",
+          "estimatedHours": 25,
+          "description": "Spring Boot 3, Redis caching, Base62 encoding, distributed rate limiting, PostgreSQL, and Docker deployment.",
+          "tags": [
+            "Project",
+            "Spring Boot",
+            "Redis",
+            "PostgreSQL",
+            "Docker"
+          ],
+          "prerequisites": [
+            "Spring Boot",
+            "Redis",
+            "Docker"
+          ]
+        },
+        {
+          "id": "project-social-media",
+          "title": "Project 2: Cloud-Native Social Media Platform",
+          "slug": "social-media-platform",
+          "path": "12-projects/social-media-platform/README.md",
+          "difficulty": "Advanced",
+          "estimatedHours": 35,
+          "description": "User auth with JWT, AWS S3 media uploads, fan-out on write feed generation, notifications, and scalable backend.",
+          "tags": [
+            "Project",
+            "AWS S3",
+            "JWT",
+            "Feed Generation",
+            "Microservices"
+          ],
+          "prerequisites": [
+            "Spring Security",
+            "AWS",
+            "Redis"
+          ]
+        },
+        {
+          "id": "project-quick-commerce",
+          "title": "Project 3: Distributed Quick Commerce Platform",
+          "slug": "quick-commerce",
+          "path": "12-projects/quick-commerce/README.md",
+          "difficulty": "Advanced",
+          "estimatedHours": 45,
+          "description": "Product catalog, real-time inventory management, order processing, Apache Kafka event sourcing, and Kubernetes deployment.",
+          "tags": [
+            "Project",
+            "Kafka",
+            "Kubernetes",
+            "Microservices",
+            "Event Sourcing"
+          ],
+          "prerequisites": [
+            "Kafka",
+            "Kubernetes",
+            "Microservices"
+          ]
+        },
+        {
+          "id": "project-ai-coding-assistant",
+          "title": "Project 4: Full-Stack AI Coding Assistant & MCP Server",
+          "slug": "ai-coding-assistant",
+          "path": "12-projects/ai-coding-assistant/README.md",
+          "difficulty": "Advanced",
+          "estimatedHours": 40,
+          "description": "Autonomous coding assistant with Model Context Protocol (MCP) server, tool calling, context window compaction, and LLM observability.",
+          "tags": [
+            "Project",
+            "MCP",
+            "AI Agents",
+            "Tool Calling",
+            "Observability"
+          ],
+          "prerequisites": [
+            "MCP",
+            "AI Agents",
+            "Observability"
+          ]
+        }
+      ]
+    }
+  ]
+}

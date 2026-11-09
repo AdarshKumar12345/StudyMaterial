@@ -1,0 +1,337 @@
+{
+  "resources": [
+    {
+      "id": "res-mdn",
+      "title": "MDN Web Docs",
+      "category": "Frontend",
+      "url": "https://developer.mozilla.org/",
+      "type": "Documentation",
+      "cost": "Free",
+      "description": "The definitive source for web developer documentation on HTML5, CSS3, Web APIs, and JavaScript.",
+      "recommendedFor": [
+        "frontend-html",
+        "frontend-css",
+        "frontend-javascript"
+      ]
+    },
+    {
+      "id": "res-javascript-info",
+      "title": "JavaScript.info (The Modern JavaScript Tutorial)",
+      "category": "Frontend",
+      "url": "https://javascript.info/",
+      "type": "Tutorial & Book",
+      "cost": "Free",
+      "description": "Deep-dive coverage of modern JavaScript from basic syntax to advanced topics like the event loop and web components.",
+      "recommendedFor": [
+        "frontend-javascript"
+      ]
+    },
+    {
+      "id": "res-react-dev",
+      "title": "React.dev Official Documentation",
+      "category": "Frontend",
+      "url": "https://react.dev/",
+      "type": "Documentation",
+      "cost": "Free",
+      "description": "Official documentation for React with interactive sandboxes, hooks in depth, and architecture best practices.",
+      "recommendedFor": [
+        "frontend-react"
+      ]
+    },
+    {
+      "id": "res-tailwind-docs",
+      "title": "Tailwind CSS Documentation",
+      "category": "Frontend",
+      "url": "https://tailwindcss.com/docs",
+      "type": "Documentation",
+      "cost": "Free",
+      "description": "Comprehensive guides on utility classes, responsive design, dark mode, and design system configuration.",
+      "recommendedFor": [
+        "frontend-tailwind"
+      ]
+    },
+    {
+      "id": "res-pro-git",
+      "title": "Pro Git Book (2nd Edition)",
+      "category": "Developer Tools",
+      "url": "https://git-scm.com/book/en/v2",
+      "type": "Book",
+      "cost": "Free",
+      "description": "Complete guide to Git internals, branching, staging, plumbing commands, and collaboration workflows.",
+      "recommendedFor": [
+        "tools-git-github"
+      ]
+    },
+    {
+      "id": "res-linux-journey",
+      "title": "Linux Journey",
+      "category": "Developer Tools",
+      "url": "https://linuxjourney.com/",
+      "type": "Interactive Course",
+      "cost": "Free",
+      "description": "Step-by-step modular guide to command line, permissions, processes, packages, and networking.",
+      "recommendedFor": [
+        "tools-linux"
+      ]
+    },
+    {
+      "id": "res-oracle-java21",
+      "title": "Oracle JDK 21 Documentation",
+      "category": "Core Java",
+      "url": "https://docs.oracle.com/en/java/javase/21/",
+      "type": "Documentation",
+      "cost": "Free",
+      "description": "Official Java 21 specification, JavaDoc API references, and JVM runtime specification.",
+      "recommendedFor": [
+        "java-fundamentals",
+        "java-oops",
+        "java-collections",
+        "java-multithreading"
+      ]
+    },
+    {
+      "id": "res-baeldung-java",
+      "title": "Baeldung Java Tutorials",
+      "category": "Core Java",
+      "url": "https://www.baeldung.com/",
+      "type": "Tutorials",
+      "cost": "Free",
+      "description": "Extensive, enterprise-grade Java tutorials covering Collections, Concurrency, Loom, and Streams.",
+      "recommendedFor": [
+        "java-collections",
+        "java-multithreading",
+        "java-virtual-threads",
+        "java-streams"
+      ]
+    },
+    {
+      "id": "res-spring-docs",
+      "title": "Spring Boot 3 Official Reference",
+      "category": "Backend",
+      "url": "https://docs.spring.io/spring-boot/docs/current/reference/html/",
+      "type": "Documentation",
+      "cost": "Free",
+      "description": "Comprehensive reference for Spring Boot auto-configuration, actuators, security, and data persistence.",
+      "recommendedFor": [
+        "backend-spring-core",
+        "backend-spring-boot",
+        "backend-spring-security"
+      ]
+    },
+    {
+      "id": "res-hibernate-guide",
+      "title": "Hibernate ORM Official User Guide",
+      "category": "Backend",
+      "url": "https://hibernate.org/orm/documentation/",
+      "type": "Documentation",
+      "cost": "Free",
+      "description": "Deep guide on JPA entity states, associations, caching, JPQL, and query optimization.",
+      "recommendedFor": [
+        "backend-hibernate"
+      ]
+    },
+    {
+      "id": "res-redis-docs",
+      "title": "Redis Official Documentation",
+      "category": "Backend",
+      "url": "https://redis.io/docs/",
+      "type": "Documentation",
+      "cost": "Free",
+      "description": "Documentation for Redis data structures, caching patterns, pub/sub, replication, and distributed locks.",
+      "recommendedFor": [
+        "backend-redis",
+        "micro-rate-limiting"
+      ]
+    },
+    {
+      "id": "res-kafka-docs",
+      "title": "Apache Kafka Documentation",
+      "category": "Backend",
+      "url": "https://kafka.apache.org/documentation/",
+      "type": "Documentation",
+      "cost": "Free",
+      "description": "Official guide to Kafka event streaming, partitioning, consumer groups, and stream processing.",
+      "recommendedFor": [
+        "backend-kafka"
+      ]
+    },
+    {
+      "id": "res-docker-docs",
+      "title": "Docker Official Documentation",
+      "category": "DevOps",
+      "url": "https://docs.docker.com/",
+      "type": "Documentation",
+      "cost": "Free",
+      "description": "Guides on Dockerfiles, multi-stage builds, networking, Compose orchestration, and security.",
+      "recommendedFor": [
+        "devops-docker"
+      ]
+    },
+    {
+      "id": "res-k8s-docs",
+      "title": "Kubernetes Official Documentation",
+      "category": "DevOps",
+      "url": "https://kubernetes.io/docs/",
+      "type": "Documentation",
+      "cost": "Free",
+      "description": "Interactive tutorials and architectural references for Pods, Services, Deployments, and Ingress.",
+      "recommendedFor": [
+        "devops-kubernetes"
+      ]
+    },
+    {
+      "id": "res-aws-skill-builder",
+      "title": "AWS Skill Builder (Free Tier)",
+      "category": "Cloud",
+      "url": "https://explore.skillbuilder.aws/",
+      "type": "Interactive Platform",
+      "cost": "Free",
+      "description": "Official cloud training from AWS covering EC2, S3, RDS, IAM, VPC, and CloudWatch.",
+      "recommendedFor": [
+        "cloud-aws"
+      ]
+    },
+    {
+      "id": "res-microservices-io",
+      "title": "Microservices.io Architecture Patterns",
+      "category": "Microservices",
+      "url": "https://microservices.io/",
+      "type": "Patterns Reference",
+      "cost": "Free",
+      "description": "Comprehensive pattern catalog created by Chris Richardson covering API Gateway, Saga, CQRS, and Circuit Breakers.",
+      "recommendedFor": [
+        "micro-fundamentals",
+        "micro-api-gateway",
+        "micro-circuit-breaker"
+      ]
+    },
+    {
+      "id": "res-prometheus-docs",
+      "title": "Prometheus Official Documentation",
+      "category": "Observability",
+      "url": "https://prometheus.io/docs/",
+      "type": "Documentation",
+      "cost": "Free",
+      "description": "Time-series monitoring, PromQL querying syntax, metric types, and Alertmanager configuration.",
+      "recommendedFor": [
+        "obs-prometheus",
+        "obs-micrometer"
+      ]
+    },
+    {
+      "id": "res-grafana-tutorials",
+      "title": "Grafana Documentation & Tutorials",
+      "category": "Observability",
+      "url": "https://grafana.com/docs/",
+      "type": "Documentation",
+      "cost": "Free",
+      "description": "Guides to building production observability dashboards, alerting triggers, and Prometheus integrations.",
+      "recommendedFor": [
+        "obs-grafana"
+      ]
+    },
+    {
+      "id": "res-prompting-guide",
+      "title": "DAIR.AI Prompt Engineering Guide",
+      "category": "AI Engineering",
+      "url": "https://www.promptingguide.ai/",
+      "type": "Open Guide",
+      "cost": "Free",
+      "description": "World-class open reference for prompt techniques, few-shot conditioning, CoT, ReAct, and LLM safety.",
+      "recommendedFor": [
+        "ai-prompt-engineering",
+        "ai-structured-outputs"
+      ]
+    },
+    {
+      "id": "res-mcp-spec",
+      "title": "Model Context Protocol (MCP) Documentation",
+      "category": "AI Engineering",
+      "url": "https://modelcontextprotocol.io/",
+      "type": "Specification & Guide",
+      "cost": "Free",
+      "description": "Open standard specification connecting AI assistants to data repositories, development environments, and tools.",
+      "recommendedFor": [
+        "ai-mcp",
+        "project-ai-coding-assistant"
+      ]
+    },
+    {
+      "id": "res-langchain-docs",
+      "title": "LangChain Documentation",
+      "category": "AI Engineering",
+      "url": "https://python.langchain.com/docs/",
+      "type": "Documentation",
+      "cost": "Free",
+      "description": "Framework guides for RAG, vector search integrations, tool calling, and autonomous agents.",
+      "recommendedFor": [
+        "ai-rag",
+        "ai-tool-calling",
+        "ai-agents"
+      ]
+    },
+    {
+      "id": "res-system-design-primer",
+      "title": "The System Design Primer",
+      "category": "System Design",
+      "url": "https://github.com/donnemartin/system-design-primer",
+      "type": "Repository & Guide",
+      "cost": "Free",
+      "description": "Massive open-source guide to distributed systems, scalability, load balancing, caching, and interview questions.",
+      "recommendedFor": [
+        "sysdesign-fundamentals",
+        "sysdesign-hld",
+        "sysdesign-case-studies"
+      ]
+    },
+    {
+      "id": "res-refactoring-guru",
+      "title": "Refactoring.Guru Design Patterns",
+      "category": "System Design",
+      "url": "https://refactoring.guru/",
+      "type": "Visual Guide",
+      "cost": "Free",
+      "description": "In-depth visual guide to Creational, Structural, and Behavioral design patterns with code implementations.",
+      "recommendedFor": [
+        "java-oops",
+        "sysdesign-lld"
+      ]
+    },
+    {
+      "id": "res-neetcode",
+      "title": "NeetCode 150 & Practice",
+      "category": "Core CS",
+      "url": "https://neetcode.io/",
+      "type": "Practice Platform",
+      "cost": "Free",
+      "description": "Structured algorithmic patterns and free video explanations covering all essential DSA patterns.",
+      "recommendedFor": [
+        "corecs-dsa"
+      ]
+    },
+    {
+      "id": "res-ostep",
+      "title": "Operating Systems: Three Easy Pieces (OSTEP)",
+      "category": "Core CS",
+      "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/",
+      "type": "Free Book",
+      "cost": "Free",
+      "description": "Internationally recognized university textbook covering virtualization, concurrency, and persistence.",
+      "recommendedFor": [
+        "corecs-operating-systems"
+      ]
+    },
+    {
+      "id": "res-use-the-index-luke",
+      "title": "Use The Index, Luke! (SQL Indexing Explained)",
+      "category": "Core CS",
+      "url": "https://use-the-index-luke.com/",
+      "type": "Free Guide",
+      "cost": "Free",
+      "description": "Definitive guide on database index performance, B-Trees, execution plans, and query optimization.",
+      "recommendedFor": [
+        "corecs-dbms"
+      ]
+    }
+  ]
+}
