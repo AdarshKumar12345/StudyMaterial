@@ -43,10 +43,10 @@ Every module contains comprehensive, structured guides with prerequisites, core 
 | **03** | [**Core Java Mastery**](03-core-java/) | Java 21 LTS, JVM Internals, OOP & SOLID, Collections, Multithreading, Virtual Threads, Streams | 8 Topics | Complete |
 | **04** | [**Spring Boot Backend**](04-spring-boot-backend/) | Maven, Spring Boot 3, JPA/Hibernate, Spring Security 6, Redis, Elasticsearch, RabbitMQ, Kafka | 9 Topics | Complete |
 | **05** | [**Cloud & DevOps**](05-cloud-devops/) | AWS Cloud, Docker Multi-Stage Builds, Kubernetes Orchestration, Jenkins CI/CD, Nginx | 5 Topics | Complete |
-| **06** | [**Microservices**](06-microservices/) | Domain-Driven Design, Spring Cloud Gateway, Config Server, Eureka, Resilience4j, Rate Limiting | 6 Topics | Complete |
-| **07** | [**Observability**](07-observability/) | ELK / OpenSearch Stack, Prometheus Metrics, Grafana Dashboards, Micrometer, Tracing | 5 Topics | Complete |
-| **08** | [**AI Engineering**](08-ai-engineering/) | Prompt Engineering, Structured Outputs, RAG, Vector Search, MCP Protocol, Autonomous Agents | 9 Topics | Complete |
-| **09** | [**AI Coding & Agents**](09-ai-coding/) | Multi-Agent Teams, Context Window Management, Custom Skills, Plan-Mode, Token Optimization | 6 Topics | Complete |
+| **06** | [**Microservices**](06-microservices/) |api-gateway , circuit-breaker , config-server , eureka , fundamentals ,rate-limiting | 6 Topics | Complete |
+| **07** | [**Observability**](07-observability/) | elk-stack , grafana , micrometer , monitoring , prometheus | 5 Topics | Complete |
+| **08** | [**AI Engineering**](08-ai-engineering/) | ai-agents , chat-memory , llm-observability , mcp , prompt-engineering , rag , structured-outputs , tool-calling , vector-search | 9 Topics | Complete |
+| **09** | [**AI Coding & Agents**](09-ai-coding/) | Multi-Agent Teams, Context Window Management, agent loop, agent skill, context management, Custom Skills, Plan-Mode, Token Optimization |  8 Topics | Complete |
 | **10** | [**System Design**](10-system-design/) | Distributed Systems Fundamentals, Low-Level Design (LLD), High-Level Design (HLD), Case Studies | 4 Topics | Complete |
 | **11** | [**Core CS Foundations**](11-core-cs/) | Data Structures & Algorithms, Operating Systems, DBMS & Indexing, Computer Networks | 4 Topics | Complete |
 | **12** | [**Production Capstones**](12-projects/) | URL Shortener, Social Media Platform, Quick Commerce Platform, AI Coding Assistant | 4 Projects | Complete |
