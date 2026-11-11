@@ -50,6 +50,7 @@ Every module contains comprehensive, structured guides with prerequisites, core 
 | **10** | [**System Design**](10-system-design/) | Distributed Systems Fundamentals, Low-Level Design (LLD), High-Level Design (HLD), Case Studies | 4 Topics | Complete |
 | **11** | [**Core CS Foundations**](11-core-cs/) | Data Structures & Algorithms, Operating Systems, DBMS & Indexing, Computer Networks | 4 Topics | Complete |
 | **12** | [**Production Capstones**](12-projects/) | URL Shortener, Social Media Platform, Quick Commerce Platform, AI Coding Assistant | 4 Projects | Complete |
+| **13** | [**Testing**](Testing/) | | 4 Projects | Complete |
 
 ---
 
